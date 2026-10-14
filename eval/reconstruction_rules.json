@@ -1,0 +1,3 @@
+{
+  "reconstruction_mse": {"direction": "lower_is_better", "tolerance": 0.001}
+}

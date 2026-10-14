@@ -1,0 +1,16 @@
+name: ci
+on:
+  push:
+  pull_request:
+
+jobs:
+  python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: uv sync --frozen --extra cpu
+      - run: uv run --frozen --extra cpu ruff check .
+      - run: uv run --frozen --extra cpu ruff format --check .
+      - run: uv run --frozen --extra cpu mypy src
+      - run: uv run --frozen --extra cpu pytest

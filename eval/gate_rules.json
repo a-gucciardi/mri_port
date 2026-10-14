@@ -1,0 +1,7 @@
+{
+  "auroc": {"direction": "higher_is_better", "tolerance": 0.01},
+  "auprc": {"direction": "higher_is_better", "tolerance": 0.01},
+  "auroc/lesion_small": {"direction": "higher_is_better", "tolerance": 0.02},
+  "ece": {"direction": "lower_is_better", "tolerance": 0.005},
+  "latency_ms_p95": {"direction": "lower_is_better", "tolerance": 2.0}
+}

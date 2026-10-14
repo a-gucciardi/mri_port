@@ -1,0 +1,1006 @@
+{
+  "schema_version": 1,
+  "dataset": "BOBs",
+  "cohort_status": "health_unverified",
+  "modalities": [
+    "T1w",
+    "T2w"
+  ],
+  "split_seed": 42,
+  "scans": [
+    {
+      "subject_id": "sub-116056",
+      "session_id": "ses-3mo",
+      "t1": "sub-116056/ses-3mo/anat/sub-116056_ses-3mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-116056/ses-3mo/anat/sub-116056_ses-3mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "f69a4e14d9a7471ec2e142bc9e4eb4bac5f3ea746ac5ea6f79abc9d3541be755",
+      "t2_sha256": "daee70c8f04d6c14c6858cb4764605297ab7106d286c625307b5bc071cee8ddf",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-116845",
+      "session_id": "ses-3mo",
+      "t1": "sub-116845/ses-3mo/anat/sub-116845_ses-3mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-116845/ses-3mo/anat/sub-116845_ses-3mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "b3368819dd83d42a2bac87e3549aa35f7a36335e87fd178276fd1f756def1562",
+      "t2_sha256": "fa13c9b0d7df15be798f6f16243c091d92b6798ef71edce7ec81aecb0be693e2",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-116845",
+      "session_id": "ses-6mo",
+      "t1": "sub-116845/ses-6mo/anat/sub-116845_ses-6mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-116845/ses-6mo/anat/sub-116845_ses-6mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "88677c9b9b5dfdec14da51358e780c8ec527c57a828e02ce23b6c5368573823c",
+      "t2_sha256": "4ff489f24dd3a0168c48ad232c4698e127fffbc0d2a561dd7c6fee66fc72a3b2",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-176427",
+      "session_id": "ses-5mo",
+      "t1": "sub-176427/ses-5mo/anat/sub-176427_ses-5mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-176427/ses-5mo/anat/sub-176427_ses-5mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "936dc206d59b8535ec106c47ab8ca70d272361cbd763cd6fa74a270c50c650be",
+      "t2_sha256": "d722d4ffa5c0b7c88a376bf2f525e9a79f2252a06be31e14ceee55ca549e65f0",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-198202",
+      "session_id": "ses-5mo",
+      "t1": "sub-198202/ses-5mo/anat/sub-198202_ses-5mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-198202/ses-5mo/anat/sub-198202_ses-5mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "02123c225b94b7163509982995811de98c6cf55ec5906b89e5746e4d53fe9952",
+      "t2_sha256": "dd35622056ba127d6d47960966190bba5c01d18f1d189711f4d2dd5ad95e5de0",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-198202",
+      "session_id": "ses-8mo",
+      "t1": "sub-198202/ses-8mo/anat/sub-198202_ses-8mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-198202/ses-8mo/anat/sub-198202_ses-8mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "1d64c5b82f4802514dc161399318db511a3e8587d77c530b6609cc19cd8326c9",
+      "t2_sha256": "6164a7c8f055c8b3c7d944608d190e6455c139501f90acc85b640296da6ef4d6",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-198549",
+      "session_id": "ses-1mo",
+      "t1": "sub-198549/ses-1mo/anat/sub-198549_ses-1mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-198549/ses-1mo/anat/sub-198549_ses-1mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "89877ffdc15d6c827d71181d4f74c11bf503641f96a3a476b2886ea0d3f91894",
+      "t2_sha256": "f47504f4546d8464363f5b3d957f656833a79c88cb6f15bd6c92e855ae3e89f3",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-198549",
+      "session_id": "ses-4mo",
+      "t1": "sub-198549/ses-4mo/anat/sub-198549_ses-4mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-198549/ses-4mo/anat/sub-198549_ses-4mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "f8c558d3092e0e0a87a104e6531232cf8701be10861c9132fa1ca98fbd16d873",
+      "t2_sha256": "a070f982f2209c5582302db7e304dc7fd1cc43b1ec25cb3a1b6dc1ec14bafade",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-198549",
+      "session_id": "ses-7mo",
+      "t1": "sub-198549/ses-7mo/anat/sub-198549_ses-7mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-198549/ses-7mo/anat/sub-198549_ses-7mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "0fa1743b68242c3056492a23032c6d84b71f50d6790e1154f847dd3ce23ed7ef",
+      "t2_sha256": "7ebb8d0dc3956e19f14855fc87748e388105052e1512b0b01985ba6d39a0a223",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-206192",
+      "session_id": "ses-3mo",
+      "t1": "sub-206192/ses-3mo/anat/sub-206192_ses-3mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-206192/ses-3mo/anat/sub-206192_ses-3mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "b3f01724eb07236aa2361e29e249ac90ae2c6d575028fb46c6c909ed6086ba18",
+      "t2_sha256": "4ffe97bf59252e11066ec114fdcc65b704810ce9936b9a4b98955b33ed043467",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-243511",
+      "session_id": "ses-7mo",
+      "t1": "sub-243511/ses-7mo/anat/sub-243511_ses-7mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-243511/ses-7mo/anat/sub-243511_ses-7mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "7aed08daf3e5bea6588710143b6f955e57a156e8cc29150943279dad476c8bd1",
+      "t2_sha256": "36ec04983d2c46df2d9eb1fa4e97bf55f904818e896ca05a69d33f9217175ab3",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-272097",
+      "session_id": "ses-5mo",
+      "t1": "sub-272097/ses-5mo/anat/sub-272097_ses-5mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-272097/ses-5mo/anat/sub-272097_ses-5mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "28a52641ba8be22b17ec754ea41916145e2ca91f82d03b39f9087fd499effb10",
+      "t2_sha256": "839dbdc14b98781e4ff31376fd09b70b1850571ab0e8f6ec6e871e989c4b45b0",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-272097",
+      "session_id": "ses-8mo",
+      "t1": "sub-272097/ses-8mo/anat/sub-272097_ses-8mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-272097/ses-8mo/anat/sub-272097_ses-8mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "5aedccc2c31b267e55cf9fcef3acaa6bc96048c21135d231a8b30bf3eeef8bd8",
+      "t2_sha256": "823096f210055539827496840803d2b5315942363610cc60658acac7d84ca7c0",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-277762",
+      "session_id": "ses-6mo",
+      "t1": "sub-277762/ses-6mo/anat/sub-277762_ses-6mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-277762/ses-6mo/anat/sub-277762_ses-6mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "339f7343c31bbcc4534731f1f3527fdbd1f4cb6d765d82e151f3ceb95fec5b55",
+      "t2_sha256": "4bd716a8faf259ccc0f76426db6231ed47ea069e3c4b597acfe42cbf67ffadfc",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-284149",
+      "session_id": "ses-6mo",
+      "t1": "sub-284149/ses-6mo/anat/sub-284149_ses-6mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-284149/ses-6mo/anat/sub-284149_ses-6mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "17757d545741e4e89220d59e3dfc4efaefe861faea1c6c9a9498800a855b18c2",
+      "t2_sha256": "f6bff1160a4ae4fd2caa74f7a0bfc433587435e03c4486ee7aa73c466a3e8aa4",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-295081",
+      "session_id": "ses-5mo",
+      "t1": "sub-295081/ses-5mo/anat/sub-295081_ses-5mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-295081/ses-5mo/anat/sub-295081_ses-5mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "45cf6b2d66516ac5dbeab04732deadb2294313c6a68a06062a79f73ba26e07d9",
+      "t2_sha256": "0fa8ab79f0b5b5a159f6366d368658eea778e20852cd788309cf5c0f0a677278",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-298032",
+      "session_id": "ses-3mo",
+      "t1": "sub-298032/ses-3mo/anat/sub-298032_ses-3mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-298032/ses-3mo/anat/sub-298032_ses-3mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "31f4f2f4fd37bdd10d4cd245e7de40ac285525d26a780c4755eab64cf3b716e8",
+      "t2_sha256": "131c8906c0ca06487240504341b2b19a6942a3d90d91853ed27c8cb7effe2fbe",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-309615",
+      "session_id": "ses-3mo",
+      "t1": "sub-309615/ses-3mo/anat/sub-309615_ses-3mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-309615/ses-3mo/anat/sub-309615_ses-3mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "dcb26a94ff1c9e3d2862250f3bc8be3fcd7e7aaf1f396c4e349c8d04c4c4b34c",
+      "t2_sha256": "7232fab06a74d97f2c28f13c9af9e90dbabde7e34587c487754d3216f26c2032",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-372377",
+      "session_id": "ses-2mo",
+      "t1": "sub-372377/ses-2mo/anat/sub-372377_ses-2mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-372377/ses-2mo/anat/sub-372377_ses-2mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "955895da3af7544b2b1a201a33b7c14084df02776d8fb714f785b96d5f53d646",
+      "t2_sha256": "230c7345678b13eccb61be7a454d18985179f9d97e356245b9e16b335bb64dcb",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-372377",
+      "session_id": "ses-8mo",
+      "t1": "sub-372377/ses-8mo/anat/sub-372377_ses-8mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-372377/ses-8mo/anat/sub-372377_ses-8mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "72e3311fa016996bc2c6ca25cd88847ab1dca4d2731f6a1e68ab39ea59fc07f1",
+      "t2_sha256": "e5e155a3217b2a9b908ac70cc2953ef458af00ec9b4002f3a8b02a2f6764a282",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-380056",
+      "session_id": "ses-7mo",
+      "t1": "sub-380056/ses-7mo/anat/sub-380056_ses-7mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-380056/ses-7mo/anat/sub-380056_ses-7mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "3fcaa85b00ecd6f46e8e1d8cfac1e9d42ba098ebf50e6a9030602286f8f30050",
+      "t2_sha256": "c270913b8b129a2dcba8c22f1fb07629d8490f0d87f0dbe49d4dc505a85c10f2",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-381606",
+      "session_id": "ses-2mo",
+      "t1": "sub-381606/ses-2mo/anat/sub-381606_ses-2mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-381606/ses-2mo/anat/sub-381606_ses-2mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "956c1f1b909d6efc214b71ce7b202489a1780a2df65c043586cc434b77287b13",
+      "t2_sha256": "ac501d9c5ea922fdf884868ef2c88260016d1c568306325979ceb43f9abf9be0",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-381606",
+      "session_id": "ses-5mo",
+      "t1": "sub-381606/ses-5mo/anat/sub-381606_ses-5mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-381606/ses-5mo/anat/sub-381606_ses-5mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "bb1748fa1e3c18ed22926ca980f05cb5a910f94074e9255adea800286d800346",
+      "t2_sha256": "1c4e39eb97586f437e92b62237dd5b585fa5028ad3411ca88cad645835208420",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-381606",
+      "session_id": "ses-8mo",
+      "t1": "sub-381606/ses-8mo/anat/sub-381606_ses-8mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-381606/ses-8mo/anat/sub-381606_ses-8mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "2e61b2b761b0b45cf898091871757a420ed4508444f56c7f25cf113d25df0848",
+      "t2_sha256": "52388b65dc0603022cb957a6b10f2080efeb25ceb22a48e4cb759ab7207a7b30",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-387247",
+      "session_id": "ses-8mo",
+      "t1": "sub-387247/ses-8mo/anat/sub-387247_ses-8mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-387247/ses-8mo/anat/sub-387247_ses-8mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "4add94af295123ceb32ab5cb598b898e6bbc2f2254e107e8bf84400a8a02e0c2",
+      "t2_sha256": "54829a91d7b38b0886b25c6cf279e0992ad6bd99a8473f9a15781f1010675a61",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-401592",
+      "session_id": "ses-6mo",
+      "t1": "sub-401592/ses-6mo/anat/sub-401592_ses-6mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-401592/ses-6mo/anat/sub-401592_ses-6mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "7c892e2527716ee63734d1e4570c6d283f40aa319c1870a54473793a88d24b2e",
+      "t2_sha256": "a92476ff6f613249be3158c06304dd0be76087aa09561beed81342ad0dcf2346",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-402408",
+      "session_id": "ses-4mo",
+      "t1": "sub-402408/ses-4mo/anat/sub-402408_ses-4mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-402408/ses-4mo/anat/sub-402408_ses-4mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "e1f41fbef35784589300b72e0c6e5d7b5fa2e755d9b167ae87ef762950ec7bb3",
+      "t2_sha256": "e2da6e4027616930d63e2a4eb38a28969ea9fa0e649e7401f5f287a9a33b1892",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-402408",
+      "session_id": "ses-7mo",
+      "t1": "sub-402408/ses-7mo/anat/sub-402408_ses-7mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-402408/ses-7mo/anat/sub-402408_ses-7mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "2c88c2d70b3a32979d165573250fe0b72438097bf3218b241f542eb4a1d94433",
+      "t2_sha256": "1bdd6a789a03c2380629fc02ff057d08b57d33795c1608b6985e646a84eb25d8",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-406768",
+      "session_id": "ses-6mo",
+      "t1": "sub-406768/ses-6mo/anat/sub-406768_ses-6mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-406768/ses-6mo/anat/sub-406768_ses-6mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "e5bc4a7b22ddfa461edbdaac806dd36a16b76b6889d344238cd237e6d7620485",
+      "t2_sha256": "b24d3bdd60a528827833f3978b9e1170875228635e47d155ae9e05cd898587ce",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-439083",
+      "session_id": "ses-1mo",
+      "t1": "sub-439083/ses-1mo/anat/sub-439083_ses-1mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-439083/ses-1mo/anat/sub-439083_ses-1mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "4d76cbee00d7c38929d5afe0adf53d014550e35bae25b40455d1d0aa2f939073",
+      "t2_sha256": "f8341f31783d51457a0a3ab311e07029dc9f2a4eaae84915b642098a9ec2c47f",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-439083",
+      "session_id": "ses-4mo",
+      "t1": "sub-439083/ses-4mo/anat/sub-439083_ses-4mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-439083/ses-4mo/anat/sub-439083_ses-4mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "904618dcd6e1c253030e070cff324777e6ef73ed3a9eeb67ef906e8b930c4d6e",
+      "t2_sha256": "e4c7b35f87f5f6cd62ba52fe84682f2d2b9005d70f3819215fd6eee8a3a36a13",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-439083",
+      "session_id": "ses-7mo",
+      "t1": "sub-439083/ses-7mo/anat/sub-439083_ses-7mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-439083/ses-7mo/anat/sub-439083_ses-7mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "ccd397f2e13d2b3f9c910dd56233c20f888e8b4e9d5533342b8285d29c9b571c",
+      "t2_sha256": "1d889f03adfe1a938a04ef8ba8a6dbb4c3c6e69d59b14bc334a42a13c336abd8",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-455675",
+      "session_id": "ses-6mo",
+      "t1": "sub-455675/ses-6mo/anat/sub-455675_ses-6mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-455675/ses-6mo/anat/sub-455675_ses-6mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "7a0e886b58df06e6e373b57c7bd0f369e6f41047b7bd21fa1ae467de169a4a2f",
+      "t2_sha256": "ff16b6f47861cb656605a3b9c4d4f029845525ad74b9c782457aa846dc74c5f1",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-469090",
+      "session_id": "ses-3mo",
+      "t1": "sub-469090/ses-3mo/anat/sub-469090_ses-3mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-469090/ses-3mo/anat/sub-469090_ses-3mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "b81e0221e59febb435ff4dba41a600794164b947468187dde0bb73d741cd7c1e",
+      "t2_sha256": "3058f26c93da6705bd03fed3ca650a9a00f30e51bf7b5eecc2e548f7b6a3ccc9",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-470437",
+      "session_id": "ses-1mo",
+      "t1": "sub-470437/ses-1mo/anat/sub-470437_ses-1mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-470437/ses-1mo/anat/sub-470437_ses-1mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "ce2a36428592ab3783731d15f718408244e0c4a9f4f7096491b2f687a0b6aad7",
+      "t2_sha256": "1155e0f4998da6d385c83e47ac00003e25bd95649aeba9a30dbb838458d6021b",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-470437",
+      "session_id": "ses-7mo",
+      "t1": "sub-470437/ses-7mo/anat/sub-470437_ses-7mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-470437/ses-7mo/anat/sub-470437_ses-7mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "41ee4fdf7e6a9d07be76a2169550c25bfdc1ec6652d8e1166f6c05c3fb52f9ba",
+      "t2_sha256": "b973addf67e826eb299aa41e3de6e24526e6d621f2d6ce146190034602ae9d05",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-518969",
+      "session_id": "ses-8mo",
+      "t1": "sub-518969/ses-8mo/anat/sub-518969_ses-8mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-518969/ses-8mo/anat/sub-518969_ses-8mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "5387ca70d22d13c050915ab246e5add9e09645dadf74e874d7508fe8c9a8caee",
+      "t2_sha256": "74355d2bd4c45b8d07575ce6ede750c8627d95748a537dbee344cbaacd415f86",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-544404",
+      "session_id": "ses-6mo",
+      "t1": "sub-544404/ses-6mo/anat/sub-544404_ses-6mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-544404/ses-6mo/anat/sub-544404_ses-6mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "d6ad5fea988ee97dcd786264f2ea141a0087916b100f282a8f9ca39e8b9274f3",
+      "t2_sha256": "9cf8e17192fc76615a1917bf469edb5d2edd959ae80eaa49d995cd2419bf3e54",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-551495",
+      "session_id": "ses-6mo",
+      "t1": "sub-551495/ses-6mo/anat/sub-551495_ses-6mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-551495/ses-6mo/anat/sub-551495_ses-6mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "959393a63fa7fad27e258d5461f4c40c137ee96f5c69378fcf14b079f52bc8f5",
+      "t2_sha256": "5a9e2cd80d9e20f1878e9d6c19375d7b8206bc8a04f270c85f98d95b596b1100",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-552990",
+      "session_id": "ses-5mo",
+      "t1": "sub-552990/ses-5mo/anat/sub-552990_ses-5mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-552990/ses-5mo/anat/sub-552990_ses-5mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "b764bf921ea49b322c44745bb3f3754ada31223ddd3966ddc8afc21e8b9f5124",
+      "t2_sha256": "331d7d3400ebe14bde5750c4a1780b9f3c6f3153d6f8e5119dc02b2fcc1d11fb",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-552990",
+      "session_id": "ses-8mo",
+      "t1": "sub-552990/ses-8mo/anat/sub-552990_ses-8mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-552990/ses-8mo/anat/sub-552990_ses-8mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "9533b1779d2a4919b602d5abc357ed94fb4f52fbf1a70be3110e178c0af445e4",
+      "t2_sha256": "acf4aa586586b987a462c222918cd0cc54e48ec46610326145acfabe6694096a",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-584381",
+      "session_id": "ses-1mo",
+      "t1": "sub-584381/ses-1mo/anat/sub-584381_ses-1mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-584381/ses-1mo/anat/sub-584381_ses-1mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "c78d471f6d8d2c0a6476902e228327d747a5cdb1427b548b92e795c0364358cd",
+      "t2_sha256": "67378b7175fda5b60d47cd07517a4ccc15c95770d379475accb7bf6b58b829a2",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-584381",
+      "session_id": "ses-4mo",
+      "t1": "sub-584381/ses-4mo/anat/sub-584381_ses-4mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-584381/ses-4mo/anat/sub-584381_ses-4mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "60a63864cfe231b880a349997ab5d70d25b15ee8cd20e8d1be33d6b4402e39b7",
+      "t2_sha256": "9cca4dfeeeefa68a6914435fcbc56de76853cd767400b2d30cf237369898d3a4",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-621289",
+      "session_id": "ses-6mo",
+      "t1": "sub-621289/ses-6mo/anat/sub-621289_ses-6mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-621289/ses-6mo/anat/sub-621289_ses-6mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "470384e7a5232c29ea9e0348b48086df310ac19509f2322c8d3214b46f160bb0",
+      "t2_sha256": "83d81e35fd6e4b244986952adba800dbde21590b1f0fadd8b20dad7d62581f46",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-627391",
+      "session_id": "ses-2mo",
+      "t1": "sub-627391/ses-2mo/anat/sub-627391_ses-2mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-627391/ses-2mo/anat/sub-627391_ses-2mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "6d51434e3a2748cf3afb5e01cdbe2252c92d059b7811348c979a701361649743",
+      "t2_sha256": "8317ec1eb9508c84c612112c3459c2c334487d96e43a23053d8063c00ed0df22",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-635515",
+      "session_id": "ses-4mo",
+      "t1": "sub-635515/ses-4mo/anat/sub-635515_ses-4mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-635515/ses-4mo/anat/sub-635515_ses-4mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "b03e55e1f9c657161d56d8191db6fa6042fbd2fd7007a70a9122b9e32fc032ad",
+      "t2_sha256": "69da5770317d87615fc6560162c880e4307c76b47e0e50c0c38777b4fe7a5b2a",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-645257",
+      "session_id": "ses-4mo",
+      "t1": "sub-645257/ses-4mo/anat/sub-645257_ses-4mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-645257/ses-4mo/anat/sub-645257_ses-4mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "146032965ba151b0299ce2eebdd32467dc0ce612d3534336d92aa0bee9540f1f",
+      "t2_sha256": "e309b5475e3eedc6fbb3ae316bb02f1d93c5c6ae50815d6e91659594b891fff9",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-657158",
+      "session_id": "ses-4mo",
+      "t1": "sub-657158/ses-4mo/anat/sub-657158_ses-4mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-657158/ses-4mo/anat/sub-657158_ses-4mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "a8f3061783f721ec48cfca3a5e36dec5d1f7cf9601d450a9faefc490af7947f6",
+      "t2_sha256": "dadfff7c862c907dd1adebccaa8ec91c6118490beb7dd6c2f7abce329df2c5a9",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-657158",
+      "session_id": "ses-7mo",
+      "t1": "sub-657158/ses-7mo/anat/sub-657158_ses-7mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-657158/ses-7mo/anat/sub-657158_ses-7mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "601dc093a327381f4eccdb4abbeb1da5c57ce53f18b878c7a0ebde3e75e0213b",
+      "t2_sha256": "a564054d7e9cea5977e7375d2ac661a0ea771f03045c60a50f07deda8e4a30fa",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-682023",
+      "session_id": "ses-7mo",
+      "t1": "sub-682023/ses-7mo/anat/sub-682023_ses-7mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-682023/ses-7mo/anat/sub-682023_ses-7mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "05536950d3e62fc16ad47eba733268ab0028fea120a80991e38a7a345dea0639",
+      "t2_sha256": "f3e91cc70a6f0fec96e07fe8fb7da2ed27bb3be4d766571e581ebb3be74fc58b",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-684448",
+      "session_id": "ses-2mo",
+      "t1": "sub-684448/ses-2mo/anat/sub-684448_ses-2mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-684448/ses-2mo/anat/sub-684448_ses-2mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "dfc8033b680cd06ea2251005f85241c1aa8396b6d031ddb2558d87736838fa35",
+      "t2_sha256": "64ca01293787106313ac424697eb160dba76dbdcb04f45da760bb62346ec648a",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-710922",
+      "session_id": "ses-4mo",
+      "t1": "sub-710922/ses-4mo/anat/sub-710922_ses-4mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-710922/ses-4mo/anat/sub-710922_ses-4mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "65288e420088bdb2fedaa98e2187e4111875fd8620325a1c5f0f23fb010232ce",
+      "t2_sha256": "5809faece469c19c9ed72bbec2eb720136f98e82aa6e78e3ca9bc4aefd497801",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-710922",
+      "session_id": "ses-7mo",
+      "t1": "sub-710922/ses-7mo/anat/sub-710922_ses-7mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-710922/ses-7mo/anat/sub-710922_ses-7mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "afb8bc1a3fb4c7b5b76e5f98de9bc426fda865986b5f04dba87c473828839047",
+      "t2_sha256": "926296df02f33be6166448cbecc7d9e38416553b915b7aaa22adb33574836fbb",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-726893",
+      "session_id": "ses-5mo",
+      "t1": "sub-726893/ses-5mo/anat/sub-726893_ses-5mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-726893/ses-5mo/anat/sub-726893_ses-5mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "a7715fc3da31edbfa39e7c7ed32825be0c25e223f8765c77c130b50af5a30007",
+      "t2_sha256": "5b5efea21ebc540692db0fccc08812f0f0c4f87cfa31b637f98ff8106bad4a77",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-726893",
+      "session_id": "ses-8mo",
+      "t1": "sub-726893/ses-8mo/anat/sub-726893_ses-8mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-726893/ses-8mo/anat/sub-726893_ses-8mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "b1e2b7722e0aca20d2431fadd35b304c5859e4e87736ffecbbedae91573fcb76",
+      "t2_sha256": "5be8857b571455444279b7391915e3716db33b2d534b6678122a2f2e7d074564",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-761141",
+      "session_id": "ses-1mo",
+      "t1": "sub-761141/ses-1mo/anat/sub-761141_ses-1mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-761141/ses-1mo/anat/sub-761141_ses-1mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "a07e80612fde18d64cd61fdefefc94f46390213f0f10d52e4596daed01983c8a",
+      "t2_sha256": "71ba8c02b1f984e9b6b9590a5618f921f7b937184de9b443e9573c6ff81a76ef",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-786266",
+      "session_id": "ses-7mo",
+      "t1": "sub-786266/ses-7mo/anat/sub-786266_ses-7mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-786266/ses-7mo/anat/sub-786266_ses-7mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "a60002ee872c7be04f20e9362775f850e5983f54c1cc76b8f51f592e22d7988b",
+      "t2_sha256": "8f12ba35cce1b6d12290f12abbd25b09b3f0945e36b5ae8a225ce9fb229e7ec9",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-801091",
+      "session_id": "ses-3mo",
+      "t1": "sub-801091/ses-3mo/anat/sub-801091_ses-3mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-801091/ses-3mo/anat/sub-801091_ses-3mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "4eb508ac50852b409b3422a54458ec843dfb51abcf6111f55905f48590285ab4",
+      "t2_sha256": "180ad05158707c8debe31470685497673f32524973c4e054b59a9001c8df4750",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-810675",
+      "session_id": "ses-3mo",
+      "t1": "sub-810675/ses-3mo/anat/sub-810675_ses-3mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-810675/ses-3mo/anat/sub-810675_ses-3mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "3ff165041aeb599735ffdcbb366c114aa45c1f1142b3d47e20e4bb613eb06b7f",
+      "t2_sha256": "08533ebce6cd0ebe4ee71451f0c251a78c8604c6a462919a8a53e9e227e6e743",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-850013",
+      "session_id": "ses-8mo",
+      "t1": "sub-850013/ses-8mo/anat/sub-850013_ses-8mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-850013/ses-8mo/anat/sub-850013_ses-8mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "fdb08aae03a7212bb520b3cdb05ff5f680fc00d569b641a02f09b7bddb7b97a4",
+      "t2_sha256": "74d226fac7269aa47b7bf9c0e71bb324ca21c2fe8b993f7a848c35206f602e9a",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-890518",
+      "session_id": "ses-8mo",
+      "t1": "sub-890518/ses-8mo/anat/sub-890518_ses-8mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-890518/ses-8mo/anat/sub-890518_ses-8mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "a7c8eb3e1bacf912fb2e6b8f78b9ee5eda8e1bd6779b80a5f3d8fe5214f5eb53",
+      "t2_sha256": "ab8606d8f35bd7499342ded0817f102e3aa7961cb152561f69b16aa88106f96e",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-938316",
+      "session_id": "ses-2mo",
+      "t1": "sub-938316/ses-2mo/anat/sub-938316_ses-2mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-938316/ses-2mo/anat/sub-938316_ses-2mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "bbf48ce638df04f3e7f78e02b27c7208e53d1ce0d9fc1d845b5fc07662eabd38",
+      "t2_sha256": "f3a2d926acfc60c310ac24e784fce81894168c969c57c55509f9f1aa44a93acb",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-938316",
+      "session_id": "ses-5mo",
+      "t1": "sub-938316/ses-5mo/anat/sub-938316_ses-5mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-938316/ses-5mo/anat/sub-938316_ses-5mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "09f1bf86cc4fe0ac77725d1f3ffd488d5dab233aa83d6f304a15342b80f80c2d",
+      "t2_sha256": "689bd61aa094952b1ee1c4f53483955205c71686aefd1c2eeb6cbf4d32ef8c5f",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-939043",
+      "session_id": "ses-3mo",
+      "t1": "sub-939043/ses-3mo/anat/sub-939043_ses-3mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-939043/ses-3mo/anat/sub-939043_ses-3mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "a46ac5a6a924abe7b982aa653048b2637993220d3188059a13105d66efa0a606",
+      "t2_sha256": "91d8b9f94dbcf0c184e50c878b14fe9b7e0a78113e38d48d7452087683ba802e",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-940808",
+      "session_id": "ses-3mo",
+      "t1": "sub-940808/ses-3mo/anat/sub-940808_ses-3mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-940808/ses-3mo/anat/sub-940808_ses-3mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "5cecf3a5e9d703a20753a86594a2a60ac26f9523b7b0501db6ce9687eb2587b0",
+      "t2_sha256": "9e64500204996535adea5b0198874e10716658f807579af99f15401bf474f1fc",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-943541",
+      "session_id": "ses-1mo",
+      "t1": "sub-943541/ses-1mo/anat/sub-943541_ses-1mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-943541/ses-1mo/anat/sub-943541_ses-1mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "794b2bc822935589b2c7cb4d8dbf528e79896088daaeab3ee71efb1b9c015efd",
+      "t2_sha256": "00d56c864c840d8fa45389c01abed6f3b984c7477fddc9b280bc8c9025dafa8b",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-981664",
+      "session_id": "ses-2mo",
+      "t1": "sub-981664/ses-2mo/anat/sub-981664_ses-2mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-981664/ses-2mo/anat/sub-981664_ses-2mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "d31d16515d096cc98651df804c37118d7eece0d7d300ad1af3a172c717868ebe",
+      "t2_sha256": "628f75f7819a73a01a7d350702acc7fc0428205ac65c8c0ff2020a716a3a49d7",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-981664",
+      "session_id": "ses-5mo",
+      "t1": "sub-981664/ses-5mo/anat/sub-981664_ses-5mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-981664/ses-5mo/anat/sub-981664_ses-5mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "15dde36f6accde36597ebfb5eb4f6484818b629d57ce6d849214645753aafe50",
+      "t2_sha256": "0ee95dfc7ef66f33181acd5d751f832ced92fc21048765e9122313a3a52c5b3e",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-981854",
+      "session_id": "ses-1mo",
+      "t1": "sub-981854/ses-1mo/anat/sub-981854_ses-1mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-981854/ses-1mo/anat/sub-981854_ses-1mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "819d9d61c5abe679ec2b3280e95cce775ef21f1db7a715bbf1a8c0614ecb6f66",
+      "t2_sha256": "1700922433c450df6e6bbb07cd59277986d0ccfc45d7808c9263f196c00f3b10",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-993015",
+      "session_id": "ses-2mo",
+      "t1": "sub-993015/ses-2mo/anat/sub-993015_ses-2mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-993015/ses-2mo/anat/sub-993015_ses-2mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "07cffd52019fc64f0f44f2c635bba59f236ab76249378f5a37152005a2919560",
+      "t2_sha256": "8b35f636c4d87e27e1089186bb480481fa21f26c8dbc1ea2ea82653e80a2ca2c",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-993015",
+      "session_id": "ses-5mo",
+      "t1": "sub-993015/ses-5mo/anat/sub-993015_ses-5mo_space-INFANTMNIacpc_T1w.nii.gz",
+      "t2": "sub-993015/ses-5mo/anat/sub-993015_ses-5mo_space-INFANTMNIacpc_T2w.nii.gz",
+      "t1_sha256": "f1385e0a0f241abfb7bced42269d437902de72d8b58b1ed6f36bf7aa715246e2",
+      "t2_sha256": "0aa32c1e281c8b8c082f06d27511a8c6bf49d9d5c69c39be2ba0366d65c9ef96",
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "split": "train"
+    }
+  ]
+}

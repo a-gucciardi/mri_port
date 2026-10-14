@@ -1,0 +1,18 @@
+defaults:
+  - schema
+  - _self_
+
+data_root: ${oc.env:MRI_DATA_ROOT,/data/hf_brain_struc/IXI}
+# data_root: ${oc.env:MRI_DATA_ROOT,/data/bobs}
+manifest: eval/frozen_manifest.json
+seed: 0
+device: cpu
+
+hydra:
+  job:
+    chdir: false
+  run:
+    dir: outputs/${now:%Y-%m-%d}/${now:%H-%M-%S-%f}
+  sweep:
+    dir: multirun/${now:%Y-%m-%d}/${now:%H-%M-%S-%f}
+    subdir: ${hydra.job.num}
