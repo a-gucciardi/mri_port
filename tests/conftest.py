@@ -18,3 +18,17 @@ def bobs_root(tmp_path: Path) -> Path:
                 image = generator.uniform(0, 1000, (20, 24, 28)).astype(np.float32)
                 nib.save(nib.Nifti1Image(image, np.eye(4)), folder / f"{prefix}_{modality}.nii.gz")
     return root
+
+
+@pytest.fixture
+def ixi_root(tmp_path: Path) -> Path:
+    root = tmp_path / "ixi"
+    generator = np.random.default_rng(1)
+    for subject in range(10):
+        for session in range(2 if subject == 0 else 1):
+            folder = root / f"sub-{subject:03}" / f"ses-{session:02}" / "anat"
+            folder.mkdir(parents=True)
+            name = f"msub-{subject:03}_ses-{session:02}_T1w_brain_affine_mni.nii.gz"
+            image = generator.uniform(0, 1000, (20, 24, 28)).astype(np.float32)
+            nib.save(nib.Nifti1Image(image, np.eye(4)), folder / name)
+    return root

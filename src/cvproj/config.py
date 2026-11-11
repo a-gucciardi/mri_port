@@ -6,6 +6,7 @@ from hydra.core.config_store import ConfigStore
 @dataclass
 class RunConfig:
     seed: int = 0
+    dataset_name: str = "BOBs"
     data_root: str = "/data/bobs"
     manifest: str = "eval/frozen_manifest.json"
     synthetic: bool = False
@@ -18,7 +19,7 @@ class RunConfig:
     width: int = 16
     device: str = "cpu"
     threads: int = 4
-    checkpoint: str = "/home/arno/projects/portfolio/mri/outputs/2026-10-08/10-52-31-500558/best.pt"
+    checkpoint: str = ""
     split: str = "val"
 
 

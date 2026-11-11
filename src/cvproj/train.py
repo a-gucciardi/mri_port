@@ -9,6 +9,7 @@ from hydra.core.hydra_config import HydraConfig
 from omegaconf import DictConfig, OmegaConf
 
 from cvproj.data.dataset import MRISlices
+from cvproj.data.prepare import DATASET_MODALITIES
 from cvproj.model import Autoencoder
 from cvproj.runtime import (
     datasets,
@@ -33,7 +34,9 @@ def main(raw: DictConfig) -> None:
     if any((output / name).exists() for name in ("run.json", "history.jsonl", "best.pt")):
         raise FileExistsError(f"Run directory already contains training results: {output}")
     data, manifest_hash = datasets(config, ("train", "val"))
-    model = Autoencoder(config.width).to(device)
+    model = Autoencoder(config.width, channels=len(DATASET_MODALITIES[config.dataset_name])).to(
+        device
+    )
     optimizer = torch.optim.Adam(model.parameters(), lr=config.learning_rate)
     write_json(output / "run.json", provenance(config, manifest_hash))
     write_json(output / "protocol.json", evaluation_protocol(config, manifest_hash, "val"))

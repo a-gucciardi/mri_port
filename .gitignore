@@ -6,7 +6,7 @@ __pycache__/
 *.egg-info/
 outputs/
 multirun/
-data/
+# data/
 build/
 dist/
 *.pt

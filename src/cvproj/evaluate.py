@@ -6,7 +6,7 @@ import torch
 from hydra.core.hydra_config import HydraConfig
 from omegaconf import DictConfig
 
-from cvproj.data.prepare import sha256
+from cvproj.data.prepare import DATASET_MODALITIES, sha256
 from cvproj.model import Autoencoder
 from cvproj.runtime import (
     datasets,
@@ -31,14 +31,22 @@ def main(raw: DictConfig) -> None:
     if any((output / name).exists() for name in ("run.json", "metrics.json", "best.pt")):
         raise FileExistsError(f"Run directory already contains results: {output}")
     device = initialize(config)
-    data, manifest_hash = datasets(config, (config.split,))
     checkpoint = torch.load(config.checkpoint, map_location=device, weights_only=True)
+    trained_dataset = checkpoint["config"].get("dataset_name", "BOBs")
+    if trained_dataset != config.dataset_name:
+        raise ValueError(
+            f"Checkpoint was trained on {trained_dataset}, but evaluation selected "
+            f"{config.dataset_name}. Train a separate model and pass its checkpoint explicitly."
+        )
+    data, manifest_hash = datasets(config, (config.split,))
     if checkpoint["manifest_sha256"] != manifest_hash:
         raise ValueError("Checkpoint was trained with a different dataset manifest")
     for field in ("synthetic", "image_size", "slice_step"):
         if checkpoint["config"][field] != getattr(config, field):
             raise ValueError(f"Checkpoint preprocessing mismatch: {field}")
-    model = Autoencoder(checkpoint["config"]["width"]).to(device)
+    model = Autoencoder(
+        checkpoint["config"]["width"], channels=len(DATASET_MODALITIES[config.dataset_name])
+    ).to(device)
     model.load_state_dict(checkpoint["state_dict"])
     metrics, subjects = score(model, loader(data[config.split], config), device)
     write_json(output / "metrics.json", metrics)

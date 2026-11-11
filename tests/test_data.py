@@ -6,10 +6,11 @@ import numpy as np
 import pytest
 import torch
 
+from cvproj.config import RunConfig
 from cvproj.data.dataset import MRISlices
 from cvproj.data.prepare import freeze, load_manifest, load_pair, resolve_scan
 from cvproj.data.transforms import normalize_pair, resize_slice, slice_indices
-from cvproj.runtime import reconstruction_error
+from cvproj.runtime import datasets, evaluation_protocol, reconstruction_error
 
 
 def test_subject_splits_and_integrity(bobs_root: Path, tmp_path: Path) -> None:
@@ -83,3 +84,62 @@ def test_constant_channel_and_empty_slice_fail() -> None:
 def test_paths_cannot_escape_data_root(bobs_root: Path) -> None:
     with pytest.raises(ValueError, match="within data root"):
         resolve_scan(bobs_root, "../outside.nii.gz")
+
+
+def test_ixi_single_channel_manifest_and_loading(ixi_root: Path, tmp_path: Path) -> None:
+    manifest = tmp_path / "ixi_manifest.json"
+    scans = freeze(ixi_root, manifest, dataset="IXI")
+    payload = json.loads(manifest.read_text())
+    assert payload["dataset"] == "IXI"
+    assert payload["modalities"] == ["T1w"]
+    assert len(scans) == 11
+    assert all(scan.t2 is None and scan.t2_sha256 is None for scan in scans)
+    assert len({scan.split for scan in scans if scan.subject_id == "sub-000"}) == 1
+    assert load_manifest(manifest, ixi_root, expected_dataset="IXI") == scans
+    repeat = tmp_path / "repeat.json"
+    freeze(ixi_root, repeat, dataset="IXI")
+    assert manifest.read_bytes() == repeat.read_bytes()
+    config = RunConfig(
+        dataset_name="IXI", data_root=str(ixi_root), manifest=str(manifest), image_size=32
+    )
+    selected, manifest_hash = datasets(config, ("train", "val"))
+    assert selected["train"][0][0].shape == (1, 32, 32)
+    assert selected["val"][0][0].shape == (1, 32, 32)
+    assert evaluation_protocol(config, manifest_hash, "val")["modalities"] == ["T1w"]
+    with (ixi_root / scans[0].t1).open("ab") as stream:
+        stream.write(b"changed")
+    with pytest.raises(ValueError, match="Dataset changed"):
+        load_manifest(manifest, ixi_root, expected_dataset="IXI")
+
+
+def test_wrong_dataset_manifest_is_rejected_before_file_access(
+    bobs_root: Path, tmp_path: Path
+) -> None:
+    manifest = tmp_path / "manifest.json"
+    freeze(bobs_root, manifest)
+    with pytest.raises(ValueError, match="Dataset/manifest mismatch"):
+        load_manifest(manifest, tmp_path / "wrong_root", expected_dataset="IXI")
+
+
+def test_wrong_root_has_actionable_error(bobs_root: Path, tmp_path: Path) -> None:
+    manifest = tmp_path / "manifest.json"
+    freeze(bobs_root, manifest)
+    with pytest.raises(FileNotFoundError, match="does not select a new dataset"):
+        load_manifest(manifest, tmp_path / "wrong_root")
+
+
+def test_ixi_requires_t1_only(ixi_root: Path, tmp_path: Path) -> None:
+    manifest = tmp_path / "manifest.json"
+    freeze(ixi_root, manifest, dataset="IXI")
+    payload = json.loads(manifest.read_text())
+    payload["scans"][0]["t2"] = payload["scans"][0]["t1"]
+    manifest.write_text(json.dumps(payload))
+    with pytest.raises(ValueError, match="must be T1-only"):
+        load_manifest(manifest, ixi_root)
+
+
+def test_ixi_filename_must_match_subject(ixi_root: Path, tmp_path: Path) -> None:
+    image = next(ixi_root.rglob("*.nii.gz"))
+    image.rename(image.with_name("msub-999_ses-00_T1w_brain_affine_mni.nii.gz"))
+    with pytest.raises(ValueError, match="does not match subject/session"):
+        freeze(ixi_root, tmp_path / "manifest.json", dataset="IXI")

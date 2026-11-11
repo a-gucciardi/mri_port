@@ -1,5 +1,6 @@
 import hashlib
 import json
+import logging
 import os
 import random
 import subprocess
@@ -15,14 +16,18 @@ from torch.utils.data import DataLoader, Dataset
 
 from cvproj.config import RunConfig
 from cvproj.data.dataset import MRISlices, SyntheticSlices
-from cvproj.data.prepare import load_manifest, sha256
+from cvproj.data.prepare import DATASET_MODALITIES, load_manifest, sha256
 from cvproj.model import Autoencoder
+
+LOG = logging.getLogger(__name__)
 
 
 def get_config(raw: DictConfig) -> RunConfig:
     config = OmegaConf.to_object(raw)
     if not isinstance(config, RunConfig):
         raise TypeError("Expected structured RunConfig")
+    if config.dataset_name not in DATASET_MODALITIES:
+        raise ValueError(f"Unsupported dataset: {config.dataset_name}")
     for name in ("batch_size", "max_epochs", "width", "threads", "slice_step"):
         if getattr(config, name) < 1:
             raise ValueError(f"{name} must be positive")
@@ -59,9 +64,21 @@ def datasets(
 ) -> tuple[dict[str, Dataset[tuple[Tensor, str]]], str]:
     if config.synthetic:
         return {
-            split: SyntheticSlices(config.image_size, split) for split in splits
+            split: SyntheticSlices(
+                config.image_size, split, channels=len(DATASET_MODALITIES[config.dataset_name])
+            )
+            for split in splits
         }, "synthetic-v1"
-    scans = load_manifest(Path(config.manifest), Path(config.data_root))
+    LOG.info(
+        "Verifying %s manifest %s against data root %s",
+        config.dataset_name,
+        config.manifest,
+        config.data_root,
+    )
+    scans = load_manifest(
+        Path(config.manifest), Path(config.data_root), expected_dataset=config.dataset_name
+    )
+    LOG.info("Verified %d visits from %d subjects", len(scans), len({s.subject_id for s in scans}))
     result: dict[str, Dataset[tuple[Tensor, str]]] = {}
     for split in splits:
         selected = [scan for scan in scans if scan.split == split]
@@ -133,13 +150,14 @@ def provenance(config: RunConfig, manifest_hash: str) -> dict[str, Any]:
         "device": config.device,
         "device_name": torch.cuda.get_device_name() if config.device == "cuda" else "cpu",
         "seed": config.seed,
+        "dataset": config.dataset_name,
         "synthetic": config.synthetic,
         "cohort_status": "synthetic" if config.synthetic else "health_unverified",
     }
 
 
 def evaluation_protocol(config: RunConfig, manifest_hash: str, split: str) -> dict[str, Any]:
-    return {
+    protocol: dict[str, Any] = {
         "version": 1,
         "manifest_sha256": manifest_hash,
         "split": split,
@@ -149,5 +167,8 @@ def evaluation_protocol(config: RunConfig, manifest_hash: str, split: str) -> di
         "subset_subjects": config.subset_subjects,
         "normalization": "positive-voxel-per-volume-p1-p99-v1",
         "aggregation": "mean-slice-mse-then-mean-subject-v1",
-        "modalities": ["T1w", "T2w"],
+        "modalities": DATASET_MODALITIES[config.dataset_name],
     }
+    if config.dataset_name == "IXI":
+        protocol["dataset"] = "IXI"
+    return protocol

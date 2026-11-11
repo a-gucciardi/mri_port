@@ -1,0 +1,4 @@
+# @package _global_
+dataset_name: IXI
+data_root: ${oc.env:MRI_DATA_ROOT,/data/hf_brain_struc/IXI}
+manifest: eval/ixi_manifest.json

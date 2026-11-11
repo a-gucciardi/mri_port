@@ -1,0 +1,5737 @@
+{
+  "schema_version": 1,
+  "dataset": "IXI",
+  "cohort_status": "health_unverified",
+  "modalities": [
+    "T1w"
+  ],
+  "split_seed": 42,
+  "scans": [
+    {
+      "subject_id": "sub-002",
+      "session_id": "ses-01",
+      "t1": "sub-002/ses-01/anat/msub-002_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "a167f29ebf531bd02e5d9363c60521a92a3c645a1e3be574a265897015a21787",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-016",
+      "session_id": "ses-01",
+      "t1": "sub-016/ses-01/anat/msub-016_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "3cb4b5872b187e2c46cbde7e73dee309f7d2d49af5600666dbd767cf31a1b019",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-017",
+      "session_id": "ses-01",
+      "t1": "sub-017/ses-01/anat/msub-017_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "16b73ac13efb6b090a970e8c99fd9e6ec8c7d0724ca1c837eef46a3c8ee7b846",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-020",
+      "session_id": "ses-01",
+      "t1": "sub-020/ses-01/anat/msub-020_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "5d86818d32a553d111bd7c4664f6e4f3eb2097ae4834d4d216a55b2e6ada304a",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-022",
+      "session_id": "ses-01",
+      "t1": "sub-022/ses-01/anat/msub-022_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "a10a1aca3433b5f5bd3f76507d1dd7214ef6566e3fe12dd069db4b1ec7ee490a",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-023",
+      "session_id": "ses-01",
+      "t1": "sub-023/ses-01/anat/msub-023_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "152383c674973049a99932f66763ea219384e7a0ef21fe3f7ff70c778b6b3407",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-024",
+      "session_id": "ses-01",
+      "t1": "sub-024/ses-01/anat/msub-024_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "b861d31824452db986d312949be84ab301fe159cedec488d175b7251ce47769f",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-025",
+      "session_id": "ses-01",
+      "t1": "sub-025/ses-01/anat/msub-025_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "d5c26d0ffc6b86fbd5974a536182726dd3b5a6bf69af72c80a5a666657cfa709",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-028",
+      "session_id": "ses-01",
+      "t1": "sub-028/ses-01/anat/msub-028_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "3c19b06b9b8c06a543a8f20a8306839c89ba34bd6c2db5b467cefd8936e618a0",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-029",
+      "session_id": "ses-01",
+      "t1": "sub-029/ses-01/anat/msub-029_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "61d58539531e14ada19051e431d94af2e168ef05a99cd819cccf77f824bdd0ee",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-030",
+      "session_id": "ses-01",
+      "t1": "sub-030/ses-01/anat/msub-030_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "24aa9e33d0466539c5f70f4fad3f4c7af84fa7c3a1cb6f543e9823c70d09b1ce",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-031",
+      "session_id": "ses-01",
+      "t1": "sub-031/ses-01/anat/msub-031_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "ebefc83703f33dcd86a96adf8d2b60cca6994f1fb10fe7957fcf34976acd1c1d",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-034",
+      "session_id": "ses-01",
+      "t1": "sub-034/ses-01/anat/msub-034_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "d6cba97d473a96f8e234370fe7e5f822e1136f6ad638f2be26b342be13544a09",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-035",
+      "session_id": "ses-01",
+      "t1": "sub-035/ses-01/anat/msub-035_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "2307948b2195b4c08916a5977997dedc6bbb8d6f763ecaa5d9550e52fba88e7a",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-037",
+      "session_id": "ses-01",
+      "t1": "sub-037/ses-01/anat/msub-037_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "b25413249c21eefad30970f5b9dd602c30fcfff35635a3f127aeebb6bbabc2d5",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-038",
+      "session_id": "ses-01",
+      "t1": "sub-038/ses-01/anat/msub-038_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "45ac9bf31481899f124f01c9a0c4feaf533c23af66d97634b1e945506953260d",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-039",
+      "session_id": "ses-01",
+      "t1": "sub-039/ses-01/anat/msub-039_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "b7d1bd7e929a21633754aeb87fb59599017deaff1c254264883c752668c60f88",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-040",
+      "session_id": "ses-01",
+      "t1": "sub-040/ses-01/anat/msub-040_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "5cc7b063c4d4f2c557fd7ba3cf21ee1b798e8019cdb050233d4b41d3fa3c38a7",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-041",
+      "session_id": "ses-01",
+      "t1": "sub-041/ses-01/anat/msub-041_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "35160ba868dee06ee5d673f28b26949e34e2f3e875310626a81c4f2ceeab9270",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-042",
+      "session_id": "ses-01",
+      "t1": "sub-042/ses-01/anat/msub-042_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "4025f9cc66a14564d82c0fe0db84203db64c5e87ea268c1d02eb10c89cb0b34f",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-043",
+      "session_id": "ses-01",
+      "t1": "sub-043/ses-01/anat/msub-043_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "6074dacb9397068e03df5f60ed7048596b14670b0b5ecfebd19a8b9846f066ce",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-044",
+      "session_id": "ses-01",
+      "t1": "sub-044/ses-01/anat/msub-044_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "f46187eb693256d666a3e0bce64fb4a0455a707215103766a6a82d362d91429b",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-045",
+      "session_id": "ses-01",
+      "t1": "sub-045/ses-01/anat/msub-045_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "5b92090356734013b4a844d5c33a656ddd7f9f0610174ec7ac6f4e56f6a256ff",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-046",
+      "session_id": "ses-01",
+      "t1": "sub-046/ses-01/anat/msub-046_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "d0ebd1404f8f2a6f69aad1972a6ecb336a65607f307e375f230d979a4f32bdba",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-050",
+      "session_id": "ses-01",
+      "t1": "sub-050/ses-01/anat/msub-050_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "5364c7b5841d5369338d51be58ab4c26d67afbe3a63ae803e092106d981cad1a",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-054",
+      "session_id": "ses-01",
+      "t1": "sub-054/ses-01/anat/msub-054_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "d0da82cba3959d81e8fe57d45fbf2a33d6358dfc6ee453614ad156ef813532b9",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-055",
+      "session_id": "ses-01",
+      "t1": "sub-055/ses-01/anat/msub-055_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "8f66d3ef04000c553222d8b4f2786c9e126d33a7f2a8d428555322daaef416eb",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-059",
+      "session_id": "ses-01",
+      "t1": "sub-059/ses-01/anat/msub-059_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "4d14bfd1600ab37b9a9f53f81fb0d05482d8ed1407dc176f8a4fbb3f116a2c19",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-061",
+      "session_id": "ses-01",
+      "t1": "sub-061/ses-01/anat/msub-061_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "387644ed035c290a7538bc291e0a75636bce5aa370495cb7b2c0219a7d5dad24",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-062",
+      "session_id": "ses-01",
+      "t1": "sub-062/ses-01/anat/msub-062_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "2c16557476b5f28f07ccd70983f4a33fdc0fb9dc1c5e548b217a01b20ba122f0",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-065",
+      "session_id": "ses-01",
+      "t1": "sub-065/ses-01/anat/msub-065_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "3dcb73199c9e66cbd8777fa4857ffaddf30d7327020aee4367f82a5a23c25935",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-066",
+      "session_id": "ses-01",
+      "t1": "sub-066/ses-01/anat/msub-066_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "b3cda249f138c7b8c692db5a910adad53a3ac59527f73d7eb4548f670ccd1506",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-067",
+      "session_id": "ses-01",
+      "t1": "sub-067/ses-01/anat/msub-067_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "927ac9fb2d254ad3d25aa5413d45263fdb66797329530797e7d2cd6e5c19f9cc",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-069",
+      "session_id": "ses-01",
+      "t1": "sub-069/ses-01/anat/msub-069_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "3f27f567a230592255a4dd4db2591427003f6333a21b7c50b4e94bccc88e932e",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-070",
+      "session_id": "ses-01",
+      "t1": "sub-070/ses-01/anat/msub-070_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "63c580dd853415c3457990af3599b14074d3bbd2c8578758af26bc50ea588205",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-071",
+      "session_id": "ses-01",
+      "t1": "sub-071/ses-01/anat/msub-071_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "d32c756f4339b2f06b8e3b7942e338fb34d991aadf1fd5a630dde03d13506262",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-072",
+      "session_id": "ses-01",
+      "t1": "sub-072/ses-01/anat/msub-072_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "60a6021e1efa95f37884565b04101d3b26cfceeec6d249702bb71e576bfa54c9",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-073",
+      "session_id": "ses-01",
+      "t1": "sub-073/ses-01/anat/msub-073_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "a4b6957d464892b04e5f6f9938b31e237608248866ac4a16c527ba3e4aa6f57b",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-074",
+      "session_id": "ses-01",
+      "t1": "sub-074/ses-01/anat/msub-074_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "30103b23357a13cbc59c9eb84f99b5bd1b13a556d0c38653499a42a6adc2fe03",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-075",
+      "session_id": "ses-01",
+      "t1": "sub-075/ses-01/anat/msub-075_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "8bde5127d394dd94a93771649525f0d8fb5374500b369ba482aae4f1ee90ffe0",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-077",
+      "session_id": "ses-01",
+      "t1": "sub-077/ses-01/anat/msub-077_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "79c32145eccfc513276f5ee1c3b7592dd5a525ad654e8739e0a6941c7641777d",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-080",
+      "session_id": "ses-01",
+      "t1": "sub-080/ses-01/anat/msub-080_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "c5e9712d496aa483a2fa4120563bcb29c3738c04959eb46c94b3e3908f5f46f9",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-084",
+      "session_id": "ses-01",
+      "t1": "sub-084/ses-01/anat/msub-084_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "ca980c47531b39675c0e3cc61a0de185fc60316e636631bd9208ec6f34ffd2fa",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-087",
+      "session_id": "ses-01",
+      "t1": "sub-087/ses-01/anat/msub-087_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "1c839a87184b2174b6a089d403706556bbfee7b11f7850a4b47213916c3b5272",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-089",
+      "session_id": "ses-01",
+      "t1": "sub-089/ses-01/anat/msub-089_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "58fb47c9bc96c7fbdf9cf8d9398ff71d0dd018e11b3b70edf3ac759080abc8f9",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-090",
+      "session_id": "ses-01",
+      "t1": "sub-090/ses-01/anat/msub-090_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "90eef4ff97d3aa3bcec6c7ea1792e69705cb7858f5659dfc9ae9e6f455704fb0",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-094",
+      "session_id": "ses-01",
+      "t1": "sub-094/ses-01/anat/msub-094_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "5e3e1b966ac245abd4ddf76b7282ef806437699e70fead34c9c618407c40565a",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-097",
+      "session_id": "ses-01",
+      "t1": "sub-097/ses-01/anat/msub-097_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "337d44a9123477acdca06b0027f2b09f4340033c4ec28b19fa950bd628169aff",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-099",
+      "session_id": "ses-01",
+      "t1": "sub-099/ses-01/anat/msub-099_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "4ecdeb547d3b0eec98a98a9af7d6ee5eece0f3e197ccb7041eb2601793ec1cd3",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-100",
+      "session_id": "ses-01",
+      "t1": "sub-100/ses-01/anat/msub-100_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "28b23a378eaf20667af95126096bb0aee2bb62348e08ec5348412d86ef77988b",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-102",
+      "session_id": "ses-01",
+      "t1": "sub-102/ses-01/anat/msub-102_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "f43fd935ca8919d530343df7d71b5a3218bd3eee4df8a3033581c400e42aab84",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-104",
+      "session_id": "ses-01",
+      "t1": "sub-104/ses-01/anat/msub-104_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "4545dd258a89366979a86304e7db6e48d54a47641bc8743d7765f2b59f3693b5",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-105",
+      "session_id": "ses-01",
+      "t1": "sub-105/ses-01/anat/msub-105_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "d48c9a7bd51e196a85489546964c367d68aff13e3fbfc738667b6fb7dbed4890",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-106",
+      "session_id": "ses-01",
+      "t1": "sub-106/ses-01/anat/msub-106_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "7bd67a52f41f5d39f16794738df2f929ba25a12ec45bd0d572819b8f77661279",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-107",
+      "session_id": "ses-01",
+      "t1": "sub-107/ses-01/anat/msub-107_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "67f3b58f25b43a59b0144df600f7ef3569b0aa055c3b02dee2c93e4fa8f3e50c",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-110",
+      "session_id": "ses-01",
+      "t1": "sub-110/ses-01/anat/msub-110_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "30faf3988660a832868eed748b975c4762738c22b62edd1b211da0d2d2cded49",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-113",
+      "session_id": "ses-01",
+      "t1": "sub-113/ses-01/anat/msub-113_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "89a94c8fd9d5804776d619eaaab0041b5e9f0523e46a146d4344f81bf35f83ea",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-114",
+      "session_id": "ses-01",
+      "t1": "sub-114/ses-01/anat/msub-114_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "cfe3e33e6676799696ac77ec6c3ab9b9bb781286cb2b2467b29116dbab0646af",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-115",
+      "session_id": "ses-01",
+      "t1": "sub-115/ses-01/anat/msub-115_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "600f81c26c2616d5161b83bd17c9fc0e7c832048d15bfe51c47771e0c66efb24",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-116",
+      "session_id": "ses-01",
+      "t1": "sub-116/ses-01/anat/msub-116_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "a8b76af06545dad1debd5ea4ab153a2fc39f8e6df9c0e7a47e5d3d08a9e6fd3c",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-118",
+      "session_id": "ses-01",
+      "t1": "sub-118/ses-01/anat/msub-118_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "dfffe21f79a80580af05dedee269f1cbeef203e19866c528222d0876a4276f39",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-119",
+      "session_id": "ses-01",
+      "t1": "sub-119/ses-01/anat/msub-119_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "cf54c6f7cd8da468588ede1bbbb7a709a9e556b54b42ecb249b792c1b23dccf4",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-120",
+      "session_id": "ses-01",
+      "t1": "sub-120/ses-01/anat/msub-120_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "0c5a81f2c9fca86e8a5a174db98c9a62f00dd705823d61fd7dba488d2e40a38c",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-121",
+      "session_id": "ses-01",
+      "t1": "sub-121/ses-01/anat/msub-121_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "f03724bbc4c3ce69fd62a165eaafaa1393ff0275819cee20fee57332c5f8e237",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-122",
+      "session_id": "ses-01",
+      "t1": "sub-122/ses-01/anat/msub-122_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "b129161a72de66fd4d8209eabbfdc2f019d1fc4aa6d01aea2f0b4316bf06a83e",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-123",
+      "session_id": "ses-01",
+      "t1": "sub-123/ses-01/anat/msub-123_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "8cba52706b1db64d1103bdb65fb9b47666369edd5cd6235d905f838c27afafce",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-126",
+      "session_id": "ses-01",
+      "t1": "sub-126/ses-01/anat/msub-126_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "5220f05abfd6e8aa94d9bcf9a8601a3bed958dca3acbf25681e3eea587fd9505",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-127",
+      "session_id": "ses-01",
+      "t1": "sub-127/ses-01/anat/msub-127_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "18018a10f666ef894dfa0be65816bf04c75f52c618c26870c4249c996edf4c5e",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-129",
+      "session_id": "ses-01",
+      "t1": "sub-129/ses-01/anat/msub-129_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "8ddd281be1cce5e63e0be1cc1316ec11bca81b9149d7900b3ef8e24fc74d5d2f",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-132",
+      "session_id": "ses-01",
+      "t1": "sub-132/ses-01/anat/msub-132_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "1b9c858b37dbf3e13ff1346bfa4e302d63370350a1461937c96c52f99658acc6",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-134",
+      "session_id": "ses-01",
+      "t1": "sub-134/ses-01/anat/msub-134_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "0b1c8070a2080f0f20756e793a92622881c9991fcfed9be75ba9f41ef4bb4aa9",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-135",
+      "session_id": "ses-01",
+      "t1": "sub-135/ses-01/anat/msub-135_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "ae8041cf386a9a48b0f939dfee414a5b4ac298f24ff82d5f9f9610f8c999da73",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-137",
+      "session_id": "ses-01",
+      "t1": "sub-137/ses-01/anat/msub-137_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "7f4c91d41be95edb96eb36a22bf074609d4fbf3d0c29fc048455e4e0db775482",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-138",
+      "session_id": "ses-01",
+      "t1": "sub-138/ses-01/anat/msub-138_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "81da8a7686d97fbaf1a5970652c74d70c8911a505bd58fb3dcff199be299ee3f",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-139",
+      "session_id": "ses-01",
+      "t1": "sub-139/ses-01/anat/msub-139_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "30d098bf3f5b9c9f0343738edde8c9ec1fc6fc106690efe83e9dd824ab9f0a74",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-140",
+      "session_id": "ses-01",
+      "t1": "sub-140/ses-01/anat/msub-140_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "ea39f7e00ad9db9d605326ff79ac4f9dec1f1f46df8a12c51a45a7606b9fb2be",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-141",
+      "session_id": "ses-01",
+      "t1": "sub-141/ses-01/anat/msub-141_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "d4dea6a64aac2ec54a7b962ac692ed93ddd66fb8a30f122a78f69591b83ad227",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-142",
+      "session_id": "ses-01",
+      "t1": "sub-142/ses-01/anat/msub-142_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "6b7cfbbb4306afd66e51fdc2f373d9efe3f481553f1992c2a915da6b8be087f3",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-143",
+      "session_id": "ses-01",
+      "t1": "sub-143/ses-01/anat/msub-143_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "3f24fce3c325607d76cd2549cab36510ada3ab55df800fdafda32b04ec12c844",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-144",
+      "session_id": "ses-01",
+      "t1": "sub-144/ses-01/anat/msub-144_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "b1a73ae9e40086d61f2ded97a666d10e130092f1bb3c8a94b00b5e71d0b71c6d",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-145",
+      "session_id": "ses-01",
+      "t1": "sub-145/ses-01/anat/msub-145_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "2632d062c41719667b0d4cd964887a7af07eba334f583eaac05537fb71f293b4",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-150",
+      "session_id": "ses-01",
+      "t1": "sub-150/ses-01/anat/msub-150_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "2ae9136451288ae47cb64b3a97303bd68f9af839436cb66a094929b60409ace5",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-151",
+      "session_id": "ses-01",
+      "t1": "sub-151/ses-01/anat/msub-151_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "b8aa12db71ee7bbf9f96cb21354dc03a86cc71ae3fbc1ecf13ccd07ef7e155f2",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-154",
+      "session_id": "ses-01",
+      "t1": "sub-154/ses-01/anat/msub-154_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "79588fd383d32b19b2dcab22c6903b07048637f2103934fec3186772f8d9ff39",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-158",
+      "session_id": "ses-01",
+      "t1": "sub-158/ses-01/anat/msub-158_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "96b72145d859ee135df226943e25c1731bf0214df441fe01fba8084f476e241e",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-159",
+      "session_id": "ses-01",
+      "t1": "sub-159/ses-01/anat/msub-159_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "ebdf632edbeee15136f18188060a034b67a481fe9a47809a67891dad1f27e802",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-161",
+      "session_id": "ses-01",
+      "t1": "sub-161/ses-01/anat/msub-161_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "77df9e52c3a0c86c6a3de68c55dc6114258c2129326ff639e8aab214e39da0b8",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-162",
+      "session_id": "ses-01",
+      "t1": "sub-162/ses-01/anat/msub-162_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "872a653b0e92903ab60cfa574bbb95e6d3073292a632f3b917a65b4b8a297eaf",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-163",
+      "session_id": "ses-01",
+      "t1": "sub-163/ses-01/anat/msub-163_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "13b26782a4060d52409d68e368162f32a485d176b2ad2a7d08f7888459d53e0f",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-164",
+      "session_id": "ses-01",
+      "t1": "sub-164/ses-01/anat/msub-164_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "4d3674a21d7c100c5dab72d3f497caa42a9c1b3696c98fb6f3f3db2b64459b13",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-165",
+      "session_id": "ses-01",
+      "t1": "sub-165/ses-01/anat/msub-165_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "346c0bd369bb98b441bfb2607260649cfab5286a00d24d2f61b7a82da38ceac1",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-166",
+      "session_id": "ses-01",
+      "t1": "sub-166/ses-01/anat/msub-166_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "7e09bc8f50d9407580e19671084035e2709eea9daa87c8cea9e5e12494c85cd7",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-167",
+      "session_id": "ses-01",
+      "t1": "sub-167/ses-01/anat/msub-167_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "4e7a07911202317e760affae1dc179c695be73baac3b22aa8f18c836b620f0bf",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-169",
+      "session_id": "ses-01",
+      "t1": "sub-169/ses-01/anat/msub-169_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "920fe366c5191f580649b27716975039fd17783126f108f111f16b843a2032b0",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-170",
+      "session_id": "ses-01",
+      "t1": "sub-170/ses-01/anat/msub-170_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "1241e7f579d186b64c94cd4ba3bc72561c8e5242fa4e99d48431ecff0349ee08",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-172",
+      "session_id": "ses-01",
+      "t1": "sub-172/ses-01/anat/msub-172_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "e411a46aa4dfa81978bc03d528a9961043ef6f03cf823295bc6b0c0fa86142c9",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-178",
+      "session_id": "ses-01",
+      "t1": "sub-178/ses-01/anat/msub-178_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "9d431df322b36db96db12a864aae8af7784e3728bd604e2a501b9634196fd17d",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-179",
+      "session_id": "ses-01",
+      "t1": "sub-179/ses-01/anat/msub-179_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "3d7de3bf189960cb2769a45d807b8bd5a077821369b325cba361d0b69030c904",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-182",
+      "session_id": "ses-01",
+      "t1": "sub-182/ses-01/anat/msub-182_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "6fc386760e22076d5ebe8cc88b6c76e07b28466ac940b7c2916c58efe48f17c3",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-183",
+      "session_id": "ses-01",
+      "t1": "sub-183/ses-01/anat/msub-183_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "f2b094f3bf2a659aaac403bb24612a33c4a693e024e800b8852d7ae3a37c8ebe",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-184",
+      "session_id": "ses-01",
+      "t1": "sub-184/ses-01/anat/msub-184_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "1930ebebdc60f6f4483e189a9cd0071d91c4e2a5f3d6a8d7101b580da93aadf7",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-185",
+      "session_id": "ses-01",
+      "t1": "sub-185/ses-01/anat/msub-185_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "36f265876841da4910b6e5b22183a348adfbdd6eebc8a624611fdbe144bcb4ca",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-186",
+      "session_id": "ses-01",
+      "t1": "sub-186/ses-01/anat/msub-186_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "7396bd1af5f03308cbaa62383bed2a45a51f8b3c12a91da002f9fbcd6bc35b48",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-188",
+      "session_id": "ses-01",
+      "t1": "sub-188/ses-01/anat/msub-188_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "2b9182097a003910b59f15ffac8c2459d3f67d0897811d993305f1e4a429282b",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-189",
+      "session_id": "ses-01",
+      "t1": "sub-189/ses-01/anat/msub-189_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "49cd09de11fd31d954adcd5ac75454720b47ce4d2be2701ffa6779ec0743d5a5",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-191",
+      "session_id": "ses-01",
+      "t1": "sub-191/ses-01/anat/msub-191_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "980ffe78fd0d1f559890db4520762348a8da963e723a8bbcc14258daea3c5156",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-192",
+      "session_id": "ses-01",
+      "t1": "sub-192/ses-01/anat/msub-192_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "af5702d9bd026057526f41952e2f97e584e356e9f8b8fafe8ab8a6ff696ae55c",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-193",
+      "session_id": "ses-01",
+      "t1": "sub-193/ses-01/anat/msub-193_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "6c0fac67634f93d831b2dfe8763a30e1f2faaa379399c1c6bc8254bea46a0eec",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-194",
+      "session_id": "ses-01",
+      "t1": "sub-194/ses-01/anat/msub-194_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "2ab3b66bd5eec602d5934ccb34f01bb840e65da78c2bce471579ad4e814c78c6",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-196",
+      "session_id": "ses-01",
+      "t1": "sub-196/ses-01/anat/msub-196_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "7933d6a4f944dfe2e0850f17ec3332824af8713da8068e38356020f7cfc516c2",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-197",
+      "session_id": "ses-01",
+      "t1": "sub-197/ses-01/anat/msub-197_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "d040203a677acd282179d5b38b4e466329ca958b059dc7aae3d9a9443d0a58fa",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-198",
+      "session_id": "ses-01",
+      "t1": "sub-198/ses-01/anat/msub-198_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "a485844298d785d2948ff8ee4d2d10c954a018fd0718693085c0b7436a0f1d0d",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-199",
+      "session_id": "ses-01",
+      "t1": "sub-199/ses-01/anat/msub-199_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "c4c36c21b811aa1b867312e2492cde2a3b99bdf43d50f1f1f422a2ddfed54fcb",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-201",
+      "session_id": "ses-01",
+      "t1": "sub-201/ses-01/anat/msub-201_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "060aa8423fecc89b8aca00e2dbfa002a463763746c151ac5341d1c084e72198d",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-206",
+      "session_id": "ses-01",
+      "t1": "sub-206/ses-01/anat/msub-206_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "8e5bea4c6d9d10003f3f933cfc48ad4c60b163bd33fa37a2acf667bc4469a909",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-207",
+      "session_id": "ses-01",
+      "t1": "sub-207/ses-01/anat/msub-207_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "e3fdd87c4347192325ef7904c86b79a45a3e82cf1fe61918322925d75202e16c",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-208",
+      "session_id": "ses-01",
+      "t1": "sub-208/ses-01/anat/msub-208_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "2e361cf3da6017259d3615baf52827cdc737b75b9cbb76654a9813437f58d430",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-209",
+      "session_id": "ses-01",
+      "t1": "sub-209/ses-01/anat/msub-209_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "0ad83889e636f6e8257cba412cba9925bfcf453c4cb213969e2801b238fe3a13",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-210",
+      "session_id": "ses-01",
+      "t1": "sub-210/ses-01/anat/msub-210_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "50a89e176e5f270f3e73ab19f46bf57c76206b73ee1d7d9036f98177e15117b8",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-213",
+      "session_id": "ses-01",
+      "t1": "sub-213/ses-01/anat/msub-213_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "445ec0e84d98f5f7a7c31e33a7a48418dcc625549158eea509bb95977b9bc1d4",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-216",
+      "session_id": "ses-01",
+      "t1": "sub-216/ses-01/anat/msub-216_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "0fd8efaf8a7da08fe0c6dd2217b5df56ab59d8d8a814ebf1e08d713f450449e3",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-217",
+      "session_id": "ses-01",
+      "t1": "sub-217/ses-01/anat/msub-217_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "6719c624db2cc11b1393cc91e36c7fcf39d7b2272b18fa3c64a1d2fbd6f4cc4c",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-219",
+      "session_id": "ses-01",
+      "t1": "sub-219/ses-01/anat/msub-219_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "c6cc7ec72015f91ceb1c71c713df360400b7290139d03b3ec327bf4f80bd3de5",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-221",
+      "session_id": "ses-01",
+      "t1": "sub-221/ses-01/anat/msub-221_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "ba55a723bafed9fd9ba07d6be7c91b05518aaa2c9d4029e748554db13ede53f7",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-222",
+      "session_id": "ses-01",
+      "t1": "sub-222/ses-01/anat/msub-222_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "1470d62d341cd977efde02dadf4e94abdcbcfe53052901eb2b287479bee3d1d4",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-223",
+      "session_id": "ses-01",
+      "t1": "sub-223/ses-01/anat/msub-223_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "5259dbd0066d7d342ec5f31e38c0337a16113bab2444b0f8394b911b8d2ab066",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-224",
+      "session_id": "ses-01",
+      "t1": "sub-224/ses-01/anat/msub-224_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "457f0ce994645b4ecece1e6140979ef7804a58f533880d0fbd1a66778d5d8264",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-225",
+      "session_id": "ses-01",
+      "t1": "sub-225/ses-01/anat/msub-225_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "49cebec88aadf6cc83e0fd9e0e7b7403076fd91497a9314e8fe26c9d1599d310",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-227",
+      "session_id": "ses-01",
+      "t1": "sub-227/ses-01/anat/msub-227_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "1a6301524794cd854caa71ab67dc9d0cec49a8c2aa330c95e0bd497abd393363",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-229",
+      "session_id": "ses-01",
+      "t1": "sub-229/ses-01/anat/msub-229_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "b3c071e7d6f943beeb00e6424dec3205d8d03b22e1e0e06a3426a417a1855fc7",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-230",
+      "session_id": "ses-01",
+      "t1": "sub-230/ses-01/anat/msub-230_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "6f79e7dd3e6ae24a749c8a56e3ef60a4b3128c02d4c187d04e8b4085cbfdd1c0",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-231",
+      "session_id": "ses-01",
+      "t1": "sub-231/ses-01/anat/msub-231_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "3b2aed612544013794368f8eacf436801689a1e4575c71787c680ca72453429d",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-234",
+      "session_id": "ses-01",
+      "t1": "sub-234/ses-01/anat/msub-234_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "8bbef65a5f7d90d1c2a9c244d7c3c662f7b2528d6809bde8a35a6c513aed63f8",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-236",
+      "session_id": "ses-01",
+      "t1": "sub-236/ses-01/anat/msub-236_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "b01a8d38d8f8d491ec081b35bd330509953b9f6179817c1f34728945be9f149c",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-237",
+      "session_id": "ses-01",
+      "t1": "sub-237/ses-01/anat/msub-237_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "0a4ab0edd575cfada454052451c443166375c2f41268a490690b8cdff748d680",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-238",
+      "session_id": "ses-01",
+      "t1": "sub-238/ses-01/anat/msub-238_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "bae7daf885db20d757307f3bb3a87fe6bf5984be3552baf3a189f68b211590bb",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-239",
+      "session_id": "ses-01",
+      "t1": "sub-239/ses-01/anat/msub-239_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "8061bf066c92c4c0a06092e8054d90780861000fc25eae495d82bbe978126ade",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-240",
+      "session_id": "ses-01",
+      "t1": "sub-240/ses-01/anat/msub-240_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "f594d46494f7907009edc97ec0de0b6638f7bfef12bbb19724901fb839b4e90f",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-244",
+      "session_id": "ses-01",
+      "t1": "sub-244/ses-01/anat/msub-244_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "9f4e2b610471a58dfab8e6e945543dd405c6f9cbed1c1665d5ae2398ba5826ee",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-246",
+      "session_id": "ses-01",
+      "t1": "sub-246/ses-01/anat/msub-246_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "9a732b5ed7a7dde8952885dd52f2fe5dbecba831affc6ece4017a08839584432",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-247",
+      "session_id": "ses-01",
+      "t1": "sub-247/ses-01/anat/msub-247_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "6802761cbea9b3a57ce73d3a72ec81becc4534c10bfc4ac58983ed36f39496df",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-248",
+      "session_id": "ses-01",
+      "t1": "sub-248/ses-01/anat/msub-248_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "ffa0d3142aae2847652bc383f93b04fcacfc0a364296ff143e848403ea3bd3b6",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-249",
+      "session_id": "ses-01",
+      "t1": "sub-249/ses-01/anat/msub-249_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "90f773eff8298504c37189199e62fcc230fb9ad88737e02deca7295438ae25ff",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-250",
+      "session_id": "ses-01",
+      "t1": "sub-250/ses-01/anat/msub-250_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "d90f80d477131d40b06d0b75480e28d8059d7f892394d987660b78e592941cca",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-251",
+      "session_id": "ses-01",
+      "t1": "sub-251/ses-01/anat/msub-251_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "26866abe42625fee5922f4e52e60faf4c30fb1c9479d41ba71a02d1021232dc3",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-253",
+      "session_id": "ses-01",
+      "t1": "sub-253/ses-01/anat/msub-253_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "820f44036764a5a08bfc5693ef17c082699d2aeb7c18c104c8f4bffb381ea4b9",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-255",
+      "session_id": "ses-01",
+      "t1": "sub-255/ses-01/anat/msub-255_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "b9f4a5dbb7070a7d375e08f927d06882c568299e01cd0147589da5eff127e335",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-256",
+      "session_id": "ses-01",
+      "t1": "sub-256/ses-01/anat/msub-256_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "3f82dd43a3746fcb0a14809def37bed2052a2e2a9cb8e237961c8ce234d2efe6",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-259",
+      "session_id": "ses-01",
+      "t1": "sub-259/ses-01/anat/msub-259_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "a213a0687e90f6727ae7d2e4e7581bf33d9818d18b6f9ca881d2a4bb3a963d4f",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-260",
+      "session_id": "ses-01",
+      "t1": "sub-260/ses-01/anat/msub-260_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "a87d85c775989c4199e1e71f7eeba016155741a4cdbba0ab1369d7a9cdb951b1",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-262",
+      "session_id": "ses-01",
+      "t1": "sub-262/ses-01/anat/msub-262_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "9a9701ab80db36b515bee6b6c2b5b33a4fa2f887f6d8da42191800dcb0db38ce",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-264",
+      "session_id": "ses-01",
+      "t1": "sub-264/ses-01/anat/msub-264_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "a05b0ab29c81955d7b50ad6b00e087a3192beaf20bf99544cc1db23fd3d5f851",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-265",
+      "session_id": "ses-01",
+      "t1": "sub-265/ses-01/anat/msub-265_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "f99377400fd9dff7e745fc8960bdbf83ae2355d9154bf98fcd98f2ae0cae81b9",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-266",
+      "session_id": "ses-01",
+      "t1": "sub-266/ses-01/anat/msub-266_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "847448c8b7e35e9e7cda7c994c29e6bec34ed93bcf02e71dc5235bac5107782a",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-268",
+      "session_id": "ses-01",
+      "t1": "sub-268/ses-01/anat/msub-268_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "59a07128f65f79416a817ce47b0459345786f67ae80b8f76a32632f841c6b1cc",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-269",
+      "session_id": "ses-01",
+      "t1": "sub-269/ses-01/anat/msub-269_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "39ab8496a251de11c915596d38be214abc54a3eeeed071734f59c48c9dea8c7b",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-270",
+      "session_id": "ses-01",
+      "t1": "sub-270/ses-01/anat/msub-270_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "672a596e08aca66036817d37af2ad311c4d53311b882488442ce64053344a9bb",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-278",
+      "session_id": "ses-01",
+      "t1": "sub-278/ses-01/anat/msub-278_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "f1b9573ea91359c26f08a8eb7e740142178d4f0757f2f502f6dfe0a7d3e5158d",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-279",
+      "session_id": "ses-01",
+      "t1": "sub-279/ses-01/anat/msub-279_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "5b543063eeaa1a56640f2f8d32ecf5a8bdd206d19b1eb5b264d70c44c5050bae",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-280",
+      "session_id": "ses-01",
+      "t1": "sub-280/ses-01/anat/msub-280_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "44e50b78cca1c5c796a78d3400c8d49a8474b9571d26aa54fd0f7620ddd41bb4",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-284",
+      "session_id": "ses-01",
+      "t1": "sub-284/ses-01/anat/msub-284_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "171236f657f1bd6efb6ff1b370a544a2d5f60fe4a64393345727c283de8c4b95",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-285",
+      "session_id": "ses-01",
+      "t1": "sub-285/ses-01/anat/msub-285_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "617acb4080aaaa45f077dd17f878218cdcb9bb92b23d59c5d8d8424e145f8d14",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-286",
+      "session_id": "ses-01",
+      "t1": "sub-286/ses-01/anat/msub-286_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "3012034e9bb059792acd5a348923ca15f38ecdb4de6f8e3724327d2db14902c2",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-287",
+      "session_id": "ses-01",
+      "t1": "sub-287/ses-01/anat/msub-287_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "13a9594dba36ee72dc11df1635d8c205a87477887b898b95300cb7e282090b1f",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-288",
+      "session_id": "ses-01",
+      "t1": "sub-288/ses-01/anat/msub-288_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "d61b01acdc1c7dd2dbf5de9af9cea66fbcef32a22eded4b28a1bb8d30360a2af",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-289",
+      "session_id": "ses-01",
+      "t1": "sub-289/ses-01/anat/msub-289_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "0ed417120ec945bf96e6eb8e8672b086dcd202664b8606ee1f65d4a7c46ef3dd",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-290",
+      "session_id": "ses-01",
+      "t1": "sub-290/ses-01/anat/msub-290_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "9e8e5dc4c0cadef5ab9e17abbd34467ffbb55a371261598d421984421aa50ef5",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-291",
+      "session_id": "ses-01",
+      "t1": "sub-291/ses-01/anat/msub-291_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "981c5745a568b7dde058c5a5d1818188a7cd5b19ad70f0a4e3af935d6cc0dba3",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-294",
+      "session_id": "ses-01",
+      "t1": "sub-294/ses-01/anat/msub-294_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "8c1314293b0637ac3f7cbc7338cb7ae614c3a656affdc14273d5bd92be583cc4",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-296",
+      "session_id": "ses-01",
+      "t1": "sub-296/ses-01/anat/msub-296_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "1d36ce69e3df5861fb738d776956b1b04c7816fcdc45fec34739d8879731754c",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-297",
+      "session_id": "ses-01",
+      "t1": "sub-297/ses-01/anat/msub-297_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "60a92e471bf38cff1874c5fdccac45bcc938c4bdc5f98c99b606e3ac6b809303",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-298",
+      "session_id": "ses-01",
+      "t1": "sub-298/ses-01/anat/msub-298_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "40865b41e1ee3615626c2696958db2112db50d26bcff8ec9592af99c8d056c86",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-299",
+      "session_id": "ses-01",
+      "t1": "sub-299/ses-01/anat/msub-299_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "96f37fa658802fc78314e61cbe118f3c07dbe6614cb993b7ff712b71939912b0",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-300",
+      "session_id": "ses-01",
+      "t1": "sub-300/ses-01/anat/msub-300_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "dc00abe946bffd8880f4fe5c6d227e41d3e942a6e23751ce6976059c8970e94f",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-302",
+      "session_id": "ses-01",
+      "t1": "sub-302/ses-01/anat/msub-302_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "e4a3797a13b94b65c323608b5bab062c63b696bda547296e0a8c45d777e7777f",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-303",
+      "session_id": "ses-01",
+      "t1": "sub-303/ses-01/anat/msub-303_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "a7afdeaa6085b537909c2f093579be049581159ad26b005a14915997f0b63154",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-304",
+      "session_id": "ses-01",
+      "t1": "sub-304/ses-01/anat/msub-304_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "db89f2baf58b8587befcab16cfb53566184bf660dacd9499f54c819e5f9dca39",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-305",
+      "session_id": "ses-01",
+      "t1": "sub-305/ses-01/anat/msub-305_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "06124e4a2994c3c6123e3333f62b2a2e4cf5cd29b479e6f518f240550a0329c0",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-306",
+      "session_id": "ses-01",
+      "t1": "sub-306/ses-01/anat/msub-306_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "a232278f384fb7df632a090bb70c97ac1d09c1c9433125aa40950a30877d3cc1",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-307",
+      "session_id": "ses-01",
+      "t1": "sub-307/ses-01/anat/msub-307_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "ebf2f9831c8ead26a71e08ac7cb366c0f84bb1c1ee28e5b0fe2584e8e96bd44e",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-309",
+      "session_id": "ses-01",
+      "t1": "sub-309/ses-01/anat/msub-309_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "f15addddcec40c061a0bad4fa8bf145b2829831c0e33c2a1317b080baf978c8b",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-311",
+      "session_id": "ses-01",
+      "t1": "sub-311/ses-01/anat/msub-311_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "9b8830fec59c6a0299f44b439072613a5a16eb600924e4fc73b0745e6e708701",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-312",
+      "session_id": "ses-01",
+      "t1": "sub-312/ses-01/anat/msub-312_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "9b94e4ae802f232ebf7f2fe1856ffe159084c1b83f594094c2da4180dcdaf4e7",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-315",
+      "session_id": "ses-01",
+      "t1": "sub-315/ses-01/anat/msub-315_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "998184c53adefdf7295dac4ade3d210390e51e6c094670e7c200b90a1f8a8c79",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-317",
+      "session_id": "ses-01",
+      "t1": "sub-317/ses-01/anat/msub-317_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "db801e01c9e463792c130a81367cda5ac23d8f23b0f174b4d74c936dbb3008af",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-319",
+      "session_id": "ses-01",
+      "t1": "sub-319/ses-01/anat/msub-319_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "3d2b8c94c1131295ecf0a17eecf000f36a0a573f878ec8fe74195af249044007",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-320",
+      "session_id": "ses-01",
+      "t1": "sub-320/ses-01/anat/msub-320_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "e39d5ae346023b1f199666a867f12d16c7bc33da23ff27e432ccdf8b66cb2f67",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-321",
+      "session_id": "ses-01",
+      "t1": "sub-321/ses-01/anat/msub-321_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "3a78bfd2475332fc3a89116b2ee2d258b4253cacc3429142a0b7064f287c6e9d",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-322",
+      "session_id": "ses-01",
+      "t1": "sub-322/ses-01/anat/msub-322_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "b08a687aae0902fb4a98d5a92f0d2f29ae63cf3118977462ae7c2b66bbb56637",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-325",
+      "session_id": "ses-01",
+      "t1": "sub-325/ses-01/anat/msub-325_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "e29525d8772d707adaf11b85ce82289e689c46402fa6b0073b874678f70e24cf",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-326",
+      "session_id": "ses-01",
+      "t1": "sub-326/ses-01/anat/msub-326_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "890a85ee9f50c42e667e3e851475a232a8c294cb6a33e96b35e4483ecce63fcb",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-328",
+      "session_id": "ses-01",
+      "t1": "sub-328/ses-01/anat/msub-328_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "64418da989c71d8a5853a2e2004b86910801136a52f77440bcdc1b91a0215673",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-331",
+      "session_id": "ses-01",
+      "t1": "sub-331/ses-01/anat/msub-331_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "97c827fd3d4e1f1c49b123df7a3746c01cb8ed5328c10c1a735a921a55b8622c",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-332",
+      "session_id": "ses-01",
+      "t1": "sub-332/ses-01/anat/msub-332_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "7131a73d239590f8dcd6739efb0f5636e1037bbd3019bd9003b7378969f44811",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-334",
+      "session_id": "ses-01",
+      "t1": "sub-334/ses-01/anat/msub-334_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "1f7d2bd9e371a5e3929a91f1b6d431a57364f8d6d50c9bace882482b11c07d4e",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-335",
+      "session_id": "ses-01",
+      "t1": "sub-335/ses-01/anat/msub-335_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "e595b8713034c80eab0906e96f96bcd7d39864d265061664ea46f5af25b9a602",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-336",
+      "session_id": "ses-01",
+      "t1": "sub-336/ses-01/anat/msub-336_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "ddd1d70c1fec6567214a25a8a9af43f2f3c79d2259a94ef4b7aadc5bb1071e0b",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-342",
+      "session_id": "ses-01",
+      "t1": "sub-342/ses-01/anat/msub-342_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "5b5631bc01921ca25870734b39305f803d2fd716615c94e85cd4bbfece6dece2",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-344",
+      "session_id": "ses-01",
+      "t1": "sub-344/ses-01/anat/msub-344_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "18f57b2df35a2fe70302c2e98ccf8302ca1631c088a685fc3a9ab697acbcf468",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-348",
+      "session_id": "ses-01",
+      "t1": "sub-348/ses-01/anat/msub-348_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "ee37d6225d6afdf0ad62c04d1323c2513d9564fc70792582ecda21176389b453",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-350",
+      "session_id": "ses-01",
+      "t1": "sub-350/ses-01/anat/msub-350_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "8d654ff85f7442753f81af8e8cb560356a1790737930008c872a0d40bb18cb48",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-351",
+      "session_id": "ses-01",
+      "t1": "sub-351/ses-01/anat/msub-351_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "27cb8c9f184799445122659a92f14cb78aa78c67e41a30cfd9ae13f364fc0741",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-356",
+      "session_id": "ses-01",
+      "t1": "sub-356/ses-01/anat/msub-356_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "b3469436a00899737ff3ed081b744c613a1844cfa5d52a654469fd0bfdbedced",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-357",
+      "session_id": "ses-01",
+      "t1": "sub-357/ses-01/anat/msub-357_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "6abaa77f652ccb71b96436e7462939fd1aa52af7a469935eb1c7b95df793903d",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-358",
+      "session_id": "ses-01",
+      "t1": "sub-358/ses-01/anat/msub-358_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "984c385e6aaf38cc98699d14b00f1d6207986bc75875cf88343ce906e7e88311",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-359",
+      "session_id": "ses-01",
+      "t1": "sub-359/ses-01/anat/msub-359_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "0e849fae6f9807f3df90e174211a4e1c8d38f9a30b1bf1fd3bb230300615f972",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-360",
+      "session_id": "ses-01",
+      "t1": "sub-360/ses-01/anat/msub-360_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "8eba2e182a1d592fe176cac632b3af3c1db454ea2e90bfb433782b777b3fd453",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-361",
+      "session_id": "ses-01",
+      "t1": "sub-361/ses-01/anat/msub-361_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "8e71d00a705ee78dbd6db9c1c2521803e1b23227065d6aea1571a08f00aeefb4",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-362",
+      "session_id": "ses-01",
+      "t1": "sub-362/ses-01/anat/msub-362_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "3aa07752ddd94ffeffd07c33480c82e60e1a9675bd21bfdc74b4dea64caa465a",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-364",
+      "session_id": "ses-01",
+      "t1": "sub-364/ses-01/anat/msub-364_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "34aa029e941bb03cff18f1a7b6a7f3f89bfb4b80479d849fef0b6e686ea5e317",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-365",
+      "session_id": "ses-01",
+      "t1": "sub-365/ses-01/anat/msub-365_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "9c189581765f43b71216d6e21d4868a4894a7263cd3e35bcf878beb2241cb983",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-368",
+      "session_id": "ses-01",
+      "t1": "sub-368/ses-01/anat/msub-368_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "952848ca52f03744d2cf30145181d3b06722d2e62b75f6e339b4f92caf7e7413",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-369",
+      "session_id": "ses-01",
+      "t1": "sub-369/ses-01/anat/msub-369_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "d8d592a65b62d366292361af361118d4e85ca70d346bbb8b068de377730c7b19",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-370",
+      "session_id": "ses-01",
+      "t1": "sub-370/ses-01/anat/msub-370_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "fe77fa3c4f2af3fbf756964145e4e42d9b54eb1c1ff9bed8a83631bf8973b890",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-371",
+      "session_id": "ses-01",
+      "t1": "sub-371/ses-01/anat/msub-371_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "f9b7931bb9f1f1603e2fd4ff5432df64f220c2a32502d458c66a1230ceb61428",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-372",
+      "session_id": "ses-01",
+      "t1": "sub-372/ses-01/anat/msub-372_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "6df85fdaaf3a4f866e1bfb7fc790c39cc360a25c94c807436b77a8bc7c3b42e4",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-373",
+      "session_id": "ses-01",
+      "t1": "sub-373/ses-01/anat/msub-373_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "a63dfb289811becd420a621616e2d0c9194f61c4ce8d1ac2a14ac6e9e2f6c8f2",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-375",
+      "session_id": "ses-01",
+      "t1": "sub-375/ses-01/anat/msub-375_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "c308d3f1783ebdad4614a20885c8792c92d61eface378114d861163957209514",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-376",
+      "session_id": "ses-01",
+      "t1": "sub-376/ses-01/anat/msub-376_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "7f5b0fbf709c8086da5cdf3b63146477c2605c139b0aac87b1694562a911f5e6",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-377",
+      "session_id": "ses-01",
+      "t1": "sub-377/ses-01/anat/msub-377_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "7b3a2a20d7e9653300d8134bdf05530f6d031a3c0c2042a1ef21069d21bba391",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-378",
+      "session_id": "ses-01",
+      "t1": "sub-378/ses-01/anat/msub-378_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "98b711ac56675da9e43d687e1309e925b420ee9c2b858a2e0a32a0503839de83",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-379",
+      "session_id": "ses-01",
+      "t1": "sub-379/ses-01/anat/msub-379_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "eefaa11ad8c80b8b49e6a0d2cfa917a21cda6f1d2d2e9b5178f1af061e234c7b",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-380",
+      "session_id": "ses-01",
+      "t1": "sub-380/ses-01/anat/msub-380_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "e124cfeaa5cf345737c33cb14923b6786400a7972eded28ad9858df1ecd32977",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-381",
+      "session_id": "ses-01",
+      "t1": "sub-381/ses-01/anat/msub-381_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "9400940fe96da294efb03a3288d6c958cb773249f90bfd40660cec18a1ac9029",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-382",
+      "session_id": "ses-01",
+      "t1": "sub-382/ses-01/anat/msub-382_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "50e109805f78519acc893923b991a673253666ba661e9e37dabf8b4fa51e27ed",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-383",
+      "session_id": "ses-01",
+      "t1": "sub-383/ses-01/anat/msub-383_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "caba0e69d0f90841acbf4874143efd43817635717da7e253b54eb0b0b824eacf",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-384",
+      "session_id": "ses-01",
+      "t1": "sub-384/ses-01/anat/msub-384_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "3839671009b82baaa4c2864bf1a5d07c2f8d4ee71d60698eb3a0f1bf6c76f269",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-385",
+      "session_id": "ses-01",
+      "t1": "sub-385/ses-01/anat/msub-385_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "77a9259e7b911e5a40bb86ccc4ed178ca534647ad1a9a5c73400e9fc894cf9f5",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-387",
+      "session_id": "ses-01",
+      "t1": "sub-387/ses-01/anat/msub-387_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "2af3d0a2b3e9a4c33aa36d340119aa901e1662c42a5b1c84c702c02f69d05f88",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-389",
+      "session_id": "ses-01",
+      "t1": "sub-389/ses-01/anat/msub-389_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "7be21635a6f1c4dde25693eb5beae665501fecb282c2b4daaed69e767b156cc2",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-390",
+      "session_id": "ses-01",
+      "t1": "sub-390/ses-01/anat/msub-390_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "65718d0519d3cb8329af8846c7cbf56a7873dde37c02dad07f6e611f797abc4d",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-391",
+      "session_id": "ses-01",
+      "t1": "sub-391/ses-01/anat/msub-391_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "b9aae8b8aecf7944d1d47bb3cde060b5f055b748171732957c66f01515b978d7",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-392",
+      "session_id": "ses-01",
+      "t1": "sub-392/ses-01/anat/msub-392_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "6784bbbaf4028c47931e977685fe42a545740fd8bcaeaabebe61e96e82a65861",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-393",
+      "session_id": "ses-01",
+      "t1": "sub-393/ses-01/anat/msub-393_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "fe00f1b893cf86e4f611cce88bfde500837fecdaa6bf7c665756e59021074cc0",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-394",
+      "session_id": "ses-01",
+      "t1": "sub-394/ses-01/anat/msub-394_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "a8e94aa328044f3040e970b0df17c0641ed601b6c8947e4bdda8efa324220e6a",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-395",
+      "session_id": "ses-01",
+      "t1": "sub-395/ses-01/anat/msub-395_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "027effe296285b31b16efc2dc59b65c7ca8d2c6a117fe67a90b1091c8d7236f9",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-397",
+      "session_id": "ses-01",
+      "t1": "sub-397/ses-01/anat/msub-397_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "87edef6c079546b8541475c39f317ceea405eb6019e3b4c5451124dbeedf7e4a",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-398",
+      "session_id": "ses-01",
+      "t1": "sub-398/ses-01/anat/msub-398_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "a5c90a7ef8ed495bf911946e4cb4ac57a63929f128085ab74e0c33887ff377a0",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-399",
+      "session_id": "ses-01",
+      "t1": "sub-399/ses-01/anat/msub-399_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "17ff9c4f7438bcbf243ff61fb24065b65f2355729e31146df790d542779fa170",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-400",
+      "session_id": "ses-01",
+      "t1": "sub-400/ses-01/anat/msub-400_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "1aeb29fea06de283525fa2134e5021d9629f7e8f3ed262d848b316939ab2bc1d",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-401",
+      "session_id": "ses-01",
+      "t1": "sub-401/ses-01/anat/msub-401_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "8445f4a562bc50fa59dc78178f04d4acbd224a3fbf6881d117296656d6f27828",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-402",
+      "session_id": "ses-01",
+      "t1": "sub-402/ses-01/anat/msub-402_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "ea4a314e03aed86fc7dc07864f7ce988fb5e8c2501c4dcc3aa4c470f013b7025",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-403",
+      "session_id": "ses-01",
+      "t1": "sub-403/ses-01/anat/msub-403_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "3a947e7e621ed972482dcd744831092137eadd05389ff345e57b16c07efaa6e0",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-405",
+      "session_id": "ses-01",
+      "t1": "sub-405/ses-01/anat/msub-405_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "18cc3b0b86f2ce74658688a650164a0d7053478a714a87c4d6e6a982ad6be84d",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-406",
+      "session_id": "ses-01",
+      "t1": "sub-406/ses-01/anat/msub-406_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "72a46d6fa79ac36841dbc77c21f3c1b1b7d1760ee48c804902a60fedd15d233b",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-407",
+      "session_id": "ses-01",
+      "t1": "sub-407/ses-01/anat/msub-407_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "a8396d1cfd4a80fc71a453c7a094ae11908a12fcca07f10dca65d2b37d6fea7d",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-408",
+      "session_id": "ses-01",
+      "t1": "sub-408/ses-01/anat/msub-408_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "218434b5587487ae3834fc04c37853f322019b1b6f861c3b28a2e48af9952e1e",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-409",
+      "session_id": "ses-01",
+      "t1": "sub-409/ses-01/anat/msub-409_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "659e3f58368a17a5d48f9789c6852ac88956fd8410e53caffd015f0e6e2f3bd7",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-410",
+      "session_id": "ses-01",
+      "t1": "sub-410/ses-01/anat/msub-410_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "b171c812f67b88f0340eea6b4011cf958b9eddd43c4be0dfbcb9c4795b35318f",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-411",
+      "session_id": "ses-01",
+      "t1": "sub-411/ses-01/anat/msub-411_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "9056ab0c07f5efdde925e590ba5de8c5206ce9fbbbd98855f602216a456aa3aa",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-412",
+      "session_id": "ses-01",
+      "t1": "sub-412/ses-01/anat/msub-412_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "9b0fd97bdf8c668c4668692427b4a8a1775249be10c03534e0aa8ccfbfcf7343",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-413",
+      "session_id": "ses-01",
+      "t1": "sub-413/ses-01/anat/msub-413_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "801f989daa59a6fc778a1e1cdcf2898cc442f56bf8487d7df229f139c1619907",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-414",
+      "session_id": "ses-01",
+      "t1": "sub-414/ses-01/anat/msub-414_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "be7fea4087ed78adb6d61d486615fb0454fd6efefab1fadb340eb85cea549818",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-415",
+      "session_id": "ses-01",
+      "t1": "sub-415/ses-01/anat/msub-415_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "d9a7cd21cd96d0f95ffb87dcfc0217af96a0c92c1e7c0ec3ef9a88a75b5e7e0e",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-416",
+      "session_id": "ses-01",
+      "t1": "sub-416/ses-01/anat/msub-416_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "1967969914fff1779fca917e6d19def6347c6cec38890cd3895322665812ef92",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-417",
+      "session_id": "ses-01",
+      "t1": "sub-417/ses-01/anat/msub-417_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "fb660ed32f51b7494b21f8de8b3f683e2a6dd0337760ab9dfb97473a6c1076cd",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-418",
+      "session_id": "ses-01",
+      "t1": "sub-418/ses-01/anat/msub-418_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "738e98c5040739c4916f4b3cf4ef443ccb35ec26c176a1ece53bff5840787d26",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-419",
+      "session_id": "ses-01",
+      "t1": "sub-419/ses-01/anat/msub-419_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "eb99cdd7fad627fb01cdeb848d47dcec6bcadafa25f647facde9fd5e142725ef",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-420",
+      "session_id": "ses-01",
+      "t1": "sub-420/ses-01/anat/msub-420_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "816d69875d0a287e5d36dd6fb2056184dbd0f2384b66cc39f2afff702b9a1779",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-423",
+      "session_id": "ses-01",
+      "t1": "sub-423/ses-01/anat/msub-423_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "62e0cee0544515c3e8d87981e3343c8cea1dc65515264b788a96d6657e8a065e",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-424",
+      "session_id": "ses-01",
+      "t1": "sub-424/ses-01/anat/msub-424_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "c518241abe8d173718513e79c14c5f5d4b239449f5843e10a12d9aceec1e4381",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-425",
+      "session_id": "ses-01",
+      "t1": "sub-425/ses-01/anat/msub-425_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "d03390e223f648ce29a789696e8e9aad882a77174989aed91cfca097da61fed1",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-426",
+      "session_id": "ses-01",
+      "t1": "sub-426/ses-01/anat/msub-426_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "f57a5a556fa4bb04ceaec48808e9c855ebe7325f408ebc9bc5fdaf1435da78a8",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-427",
+      "session_id": "ses-01",
+      "t1": "sub-427/ses-01/anat/msub-427_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "60c4aff7745166763090f551122165737e8e810177588b8e2fe1d3f37b8d7762",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-428",
+      "session_id": "ses-01",
+      "t1": "sub-428/ses-01/anat/msub-428_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "5225386c5433357939ffb160495e91c49009a504dda091aaaf6a436eeeafca69",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-429",
+      "session_id": "ses-01",
+      "t1": "sub-429/ses-01/anat/msub-429_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "e3a00e7c3bd9014fb632588f68880541175951414c501f3d675eb7ee20572d09",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-430",
+      "session_id": "ses-01",
+      "t1": "sub-430/ses-01/anat/msub-430_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "f1bfa7aaf3f3c27f6c0ccc573a2bf8d02e08457413a342070756ef868510df9b",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-431",
+      "session_id": "ses-01",
+      "t1": "sub-431/ses-01/anat/msub-431_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "3fc04180eef885790aa439f549eab19b4da9c1a159f1d45f2764ef001ebd9d1e",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-432",
+      "session_id": "ses-01",
+      "t1": "sub-432/ses-01/anat/msub-432_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "9338054e4b2a31ce0f3b0b7cc11b0e7268e4cf091ccce7cc90a676fff6fa4994",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-433",
+      "session_id": "ses-01",
+      "t1": "sub-433/ses-01/anat/msub-433_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "3638863dab2593c1a6b9bd61a6903e787831952e960948438d62ab27398544a9",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-434",
+      "session_id": "ses-01",
+      "t1": "sub-434/ses-01/anat/msub-434_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "5d60b123dd3d1631182bea51700d5908815e47437310717f03bca251c3ba13fe",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-436",
+      "session_id": "ses-01",
+      "t1": "sub-436/ses-01/anat/msub-436_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "180448fd533964814eba65760da35193d745d2b3d00073810e706dbafe89d678",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-439",
+      "session_id": "ses-01",
+      "t1": "sub-439/ses-01/anat/msub-439_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "baa342dfbc94e3133d3b3599172ae3683bb4aa19e44a365c9cafc5f67fa9bdd5",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-440",
+      "session_id": "ses-01",
+      "t1": "sub-440/ses-01/anat/msub-440_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "4ed519358c0d39af693f7130988d7b7e5598cb47bb1fe95075990d426b6ff4ca",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-441",
+      "session_id": "ses-01",
+      "t1": "sub-441/ses-01/anat/msub-441_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "7552e373eba30f2f359ce0f0974c258c8fedabd15ecd985b84bfff47c6da4084",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-442",
+      "session_id": "ses-01",
+      "t1": "sub-442/ses-01/anat/msub-442_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "a5be6105078fad44999384c1e0c9a6b43738e98cdf80621c93a6d43d674e4dcf",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-443",
+      "session_id": "ses-01",
+      "t1": "sub-443/ses-01/anat/msub-443_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "eedd16a70c2f7d6cb86764f789dc4f0dda68af13a8651e9d9bca33cc544cefcf",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-445",
+      "session_id": "ses-01",
+      "t1": "sub-445/ses-01/anat/msub-445_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "3bd01b406e10254e1924ef4a8e8bac1c0c50f5c2a9616f0f23230c178d1b6c72",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-447",
+      "session_id": "ses-01",
+      "t1": "sub-447/ses-01/anat/msub-447_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "b347c213ab628fa7d443ed022cea9e2f565d957430c117bf68927d82b2008d0b",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-448",
+      "session_id": "ses-01",
+      "t1": "sub-448/ses-01/anat/msub-448_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "9f8d4f106b7da22807bc1bb4053374a07ff51d6e24643065b43307ceb2d60d42",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-450",
+      "session_id": "ses-01",
+      "t1": "sub-450/ses-01/anat/msub-450_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "6a9c143172d202502add01c6b0be9b142467da35c7e379428bf481ca75810e81",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-452",
+      "session_id": "ses-01",
+      "t1": "sub-452/ses-01/anat/msub-452_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "f3eac164dcdb5d1523c3ac59052eb74b05ab7f44d0ea559c3df0fb7b64a8bb91",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-453",
+      "session_id": "ses-01",
+      "t1": "sub-453/ses-01/anat/msub-453_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "6fb979764b2ce7bb6a383355704ff255b795ce074483edbc98f2dcce30620b25",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-454",
+      "session_id": "ses-01",
+      "t1": "sub-454/ses-01/anat/msub-454_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "8ade87aef356897372d95fb13588c528e9e178dfe7e83a1a1ac184d9ad00c1e0",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-455",
+      "session_id": "ses-01",
+      "t1": "sub-455/ses-01/anat/msub-455_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "a0d66b6e59919bac2e8ab128ad6718466cc69eec5e262fbb8382d7b46d3231a4",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-456",
+      "session_id": "ses-01",
+      "t1": "sub-456/ses-01/anat/msub-456_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "2c668d8e5fb8fb9bdbb77b48a96f31607b16dc26a67442b9ceb08af118b14159",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-458",
+      "session_id": "ses-01",
+      "t1": "sub-458/ses-01/anat/msub-458_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "e8e2bc5201dc116194a97bc631750bf91d0c1b586a4a104b5cef4466de6ce6fa",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-459",
+      "session_id": "ses-01",
+      "t1": "sub-459/ses-01/anat/msub-459_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "4e2a0fa1f54a1e94bdc967b5289ac38638db77687ee11daf06a206044fba34cc",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-460",
+      "session_id": "ses-01",
+      "t1": "sub-460/ses-01/anat/msub-460_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "7032261206f63b80bcf72a07306e882cd1ee91138f1ff95f296b4bdefd6686c5",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-461",
+      "session_id": "ses-01",
+      "t1": "sub-461/ses-01/anat/msub-461_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "f3b525c2d0e2c197c1d03fcf688ef3eaff98f5560e1ab5aa06a329ad32568bb2",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-462",
+      "session_id": "ses-01",
+      "t1": "sub-462/ses-01/anat/msub-462_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "6cb32eaedc1f61c34d27a6196eeacf8033152c411e8fb114e24df1111f48ce13",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-463",
+      "session_id": "ses-01",
+      "t1": "sub-463/ses-01/anat/msub-463_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "e8032360ceb8c52933ccaccd6c64c3ac8cf7ea1f72d5ea8b6b6289d5954d553b",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-464",
+      "session_id": "ses-01",
+      "t1": "sub-464/ses-01/anat/msub-464_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "5865f8c564e1b0630c3413868a296af28ab1362fe6eb668935db936b38884abc",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-465",
+      "session_id": "ses-01",
+      "t1": "sub-465/ses-01/anat/msub-465_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "c4bc61a1d6bb66fcecd11c0dbe3c9644e835869dbe615bd14e0912c437c250ac",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-467",
+      "session_id": "ses-01",
+      "t1": "sub-467/ses-01/anat/msub-467_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "bf1ba84b5862fc5b8f6f14134044190168a2378d32fd92917b4381ca1157dba0",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-468",
+      "session_id": "ses-01",
+      "t1": "sub-468/ses-01/anat/msub-468_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "4949ee5e044423baf496393cddf681c799516348e82d0e172720a0ff3849c84b",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-469",
+      "session_id": "ses-01",
+      "t1": "sub-469/ses-01/anat/msub-469_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "e63d48068c3be00d07c413d8b3e13a4500d891f7091dfada9158a7dff36db55d",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-470",
+      "session_id": "ses-01",
+      "t1": "sub-470/ses-01/anat/msub-470_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "f6352b896d04920aee937123c6a40778fdc42a26c818a11a97d3f211550e6675",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-473",
+      "session_id": "ses-01",
+      "t1": "sub-473/ses-01/anat/msub-473_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "499dcbc23e5103bb241e73577e79967d41318137e52b08c3c321a206c4562108",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-475",
+      "session_id": "ses-01",
+      "t1": "sub-475/ses-01/anat/msub-475_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "a379ebfb0a60011901a29837187c2839283c8c9fb6db279f7e21378758e1202c",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-476",
+      "session_id": "ses-01",
+      "t1": "sub-476/ses-01/anat/msub-476_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "f10ab7f2ddcb34e198c908ae9b61c83a09d1e82508fc9e91a7e191485f140c5a",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-477",
+      "session_id": "ses-01",
+      "t1": "sub-477/ses-01/anat/msub-477_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "53c50a5da7a90b9c09fc6a371efa15503d25d5eb1a3215fd449fc63230c582b2",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-479",
+      "session_id": "ses-01",
+      "t1": "sub-479/ses-01/anat/msub-479_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "618b3be44973912f50bada90e3b16e2e38a681a853049ad86c16aad1f9883b4f",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-480",
+      "session_id": "ses-01",
+      "t1": "sub-480/ses-01/anat/msub-480_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "3255d4e01f55c56b106b48dc9723718110d503c495965560999dfc2762bd000f",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-481",
+      "session_id": "ses-01",
+      "t1": "sub-481/ses-01/anat/msub-481_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "af564e91727d89676455074ed0f663454eefc552e4789c39fc915c8654cd6f3e",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-482",
+      "session_id": "ses-01",
+      "t1": "sub-482/ses-01/anat/msub-482_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "4a3a009e4ab253b26643223d4e95aa6689a96ea6e297b00e654c771a541851c3",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-486",
+      "session_id": "ses-01",
+      "t1": "sub-486/ses-01/anat/msub-486_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "aee764b669996d714c502f6a834b2b609a85fe86d9ef670b2c98248255b8da76",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-487",
+      "session_id": "ses-01",
+      "t1": "sub-487/ses-01/anat/msub-487_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "c154a466d57edd63be9cdc08fdd491334afa3b7836a2ccea978be4913bf7aeff",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-488",
+      "session_id": "ses-01",
+      "t1": "sub-488/ses-01/anat/msub-488_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "bec11bbb03b6dc75fef2f16ecf7c616d86230c80f662986d86f3fff7ba12d938",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-489",
+      "session_id": "ses-01",
+      "t1": "sub-489/ses-01/anat/msub-489_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "e4318fbf02284c85d4d5a70273ce2de5de2a5926ab5eac95330ed5f4c6c9a592",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-490",
+      "session_id": "ses-01",
+      "t1": "sub-490/ses-01/anat/msub-490_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "ad18119e7beab2341c9aa3ea27c8d05df8d5ca1ae0ccbd00f9ad445784180d5e",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-491",
+      "session_id": "ses-01",
+      "t1": "sub-491/ses-01/anat/msub-491_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "52e82f825cd9b5aaf5763c702b68bf1b576928c6cae8ac8eac9edff889980213",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-492",
+      "session_id": "ses-01",
+      "t1": "sub-492/ses-01/anat/msub-492_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "b06d4b77f7f629ce3db54f38d6949eaa6692aaaef21d58c4db2348360b7f46d4",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-493",
+      "session_id": "ses-01",
+      "t1": "sub-493/ses-01/anat/msub-493_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "2851604185c72f0625176efa41c96fc1c2726c7f2fdae544b144a757b8540e7f",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-494",
+      "session_id": "ses-01",
+      "t1": "sub-494/ses-01/anat/msub-494_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "77bb1dec1424baf2561c70a00d706b7e70243f4b431e30f8fd5cbd188cc9145c",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-495",
+      "session_id": "ses-01",
+      "t1": "sub-495/ses-01/anat/msub-495_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "460bd23d98d4e8c0e22718e00b13e566872ccec9e88a171fa9aad49a6a274845",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-496",
+      "session_id": "ses-01",
+      "t1": "sub-496/ses-01/anat/msub-496_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "6d68035268fad128c0ca9111e42c1ef0e00ebb5eecc28064586882d9dd883dde",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-497",
+      "session_id": "ses-01",
+      "t1": "sub-497/ses-01/anat/msub-497_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "295b3fc9439229d53154fc0672f8b35a02ea49bc313eb6a9ba1f7d960009a45a",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-498",
+      "session_id": "ses-01",
+      "t1": "sub-498/ses-01/anat/msub-498_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "d0cbd9e0c5feccf636dd0cef4b0fb333f38c2bfa9161026367c11e0224f75472",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-499",
+      "session_id": "ses-01",
+      "t1": "sub-499/ses-01/anat/msub-499_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "44cac5158fdb1c4933e7a47fecf1f5e5083aedec46afa7f5e34a74c88468e332",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-500",
+      "session_id": "ses-01",
+      "t1": "sub-500/ses-01/anat/msub-500_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "201e4daec2c3b026fe7cfafafbe4662bdd21e76a72de9f2bafd7cd0b39531094",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-501",
+      "session_id": "ses-01",
+      "t1": "sub-501/ses-01/anat/msub-501_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "ac0e54569e2b475de4296a52e4fe2bc54dbdc8f938d5d248fe76e4b32d2d39db",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-502",
+      "session_id": "ses-01",
+      "t1": "sub-502/ses-01/anat/msub-502_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "aebcc4a74c66854c05cd436816b55c8943906b07fc77de3640f14e0809610f7f",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-503",
+      "session_id": "ses-01",
+      "t1": "sub-503/ses-01/anat/msub-503_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "61f43afa426d9aceec96605d99972e55743586705a8c8531f08fe80a91713731",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-504",
+      "session_id": "ses-01",
+      "t1": "sub-504/ses-01/anat/msub-504_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "4c65bf3f3467e31b692a6ab2e8549949daa7a8e7a0d3aa3f86dd9b00c4c46bea",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-506",
+      "session_id": "ses-01",
+      "t1": "sub-506/ses-01/anat/msub-506_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "8dddc9576102f04cd5d71354258fc48bb214d5ccec650b12356227793bce9d38",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-507",
+      "session_id": "ses-01",
+      "t1": "sub-507/ses-01/anat/msub-507_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "219eadd6829af725dc4790fb7c5b36c4e53b75186345f9fccf1fbf4135239e24",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-508",
+      "session_id": "ses-01",
+      "t1": "sub-508/ses-01/anat/msub-508_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "3dd3dc6558db5513429676aea3878895cf37aef17273f99854ee0d0e7cc31a9a",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-510",
+      "session_id": "ses-01",
+      "t1": "sub-510/ses-01/anat/msub-510_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "1e23417db110c0f398a183369f3edabd2cc161873610e78e768fef932f6ee3cf",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-511",
+      "session_id": "ses-01",
+      "t1": "sub-511/ses-01/anat/msub-511_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "4c62d56f5cfc98801abb5dcae864f3bc842cf4de68801a29b6d8800756bc9ae5",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-512",
+      "session_id": "ses-01",
+      "t1": "sub-512/ses-01/anat/msub-512_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "3ae36903cdf5446a93a694bbd8f8d5c262912e837c1b257365dbca4ae47a522a",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-516",
+      "session_id": "ses-01",
+      "t1": "sub-516/ses-01/anat/msub-516_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "ed91fc5f31e39b9571c740b1938ebfac86a830e81d6edfeaab0a7592e3371cfc",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-518",
+      "session_id": "ses-01",
+      "t1": "sub-518/ses-01/anat/msub-518_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "cf555bf4909bdec5bf79a503f05e622e41fe6044c3b96c6a84e2273a108e4fc3",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-519",
+      "session_id": "ses-01",
+      "t1": "sub-519/ses-01/anat/msub-519_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "2502b09e9f234359489367f42794b751a87a9a0b7f3561a4aca30afbe3ba23ad",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-521",
+      "session_id": "ses-01",
+      "t1": "sub-521/ses-01/anat/msub-521_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "2885d8a16feab7fafe0a45e4e98120b7cf618d2f625394cc164d3aeff50b05c7",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-522",
+      "session_id": "ses-01",
+      "t1": "sub-522/ses-01/anat/msub-522_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "57e1147572484d5abb3c3360ad59eed6a92cc33ef3e7830b19f4c15fbc706d7c",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-523",
+      "session_id": "ses-01",
+      "t1": "sub-523/ses-01/anat/msub-523_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "cced8afb4227d1be4e1f5183518f90eedc31d5ea560f2e38b02212890c6092eb",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-524",
+      "session_id": "ses-01",
+      "t1": "sub-524/ses-01/anat/msub-524_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "1d0d7a604e92c109255dbb36d82bdb507e79aa132652e0dd580b56eaae2c5908",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-525",
+      "session_id": "ses-01",
+      "t1": "sub-525/ses-01/anat/msub-525_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "e76ba9b9c144e0130a31e0766b8f2ac41ef177f442dbf70fb2acc44367c8a7e0",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-526",
+      "session_id": "ses-01",
+      "t1": "sub-526/ses-01/anat/msub-526_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "fe80a95bf0cb9ebd947f567283a9e40732c80e59da6267fa7add84583e02cdd1",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-527",
+      "session_id": "ses-01",
+      "t1": "sub-527/ses-01/anat/msub-527_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "a991999be0f4885df7423f16524ad67d8ccf037bd463062f5e7bd83fb2b4b854",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-531",
+      "session_id": "ses-01",
+      "t1": "sub-531/ses-01/anat/msub-531_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "2fe0ad6b75147917714f179078b6852b922e68cd382eab530d6473ddbee1d91c",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-532",
+      "session_id": "ses-01",
+      "t1": "sub-532/ses-01/anat/msub-532_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "4b899aa785ee4fbce4d487099869c0c905cf827bd51fac85ea9b3ffb9228a6c2",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-533",
+      "session_id": "ses-01",
+      "t1": "sub-533/ses-01/anat/msub-533_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "994fbfb33d95e0d07200358b442c92d0d254ffcfc3ea0a96c781e34be3176811",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-534",
+      "session_id": "ses-01",
+      "t1": "sub-534/ses-01/anat/msub-534_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "45f498ea7f75620cec234f2233908eadb70199f372dea8cc6dc692821b472d1f",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-535",
+      "session_id": "ses-01",
+      "t1": "sub-535/ses-01/anat/msub-535_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "74d77be837bb1b663c3c399a78c257e5916b93c62d65204d37f1ba47eccb8a26",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-536",
+      "session_id": "ses-01",
+      "t1": "sub-536/ses-01/anat/msub-536_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "d14ea9430cb61fd23852b90f1b7b2a8351492b7e1291e8e1b931cc38074dc102",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-537",
+      "session_id": "ses-01",
+      "t1": "sub-537/ses-01/anat/msub-537_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "b78f3151e755e347fcb0f8451cf2999816dd5ca5b3b16b39b179e288da0a9ad5",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-539",
+      "session_id": "ses-01",
+      "t1": "sub-539/ses-01/anat/msub-539_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "af2e545c45397f7e76bb41ae41d4993e832b28d386edc6166beb3232fa75e984",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-541",
+      "session_id": "ses-01",
+      "t1": "sub-541/ses-01/anat/msub-541_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "c46dc69850fe7cf5edd7354fb185df5acc7cb02a7958c037509dfb2afe3e4ee9",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-544",
+      "session_id": "ses-01",
+      "t1": "sub-544/ses-01/anat/msub-544_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "845f2694e6f141a3c9c57788113a1427053b0ff13c2b8fe60cef7c4765e20ea9",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-546",
+      "session_id": "ses-01",
+      "t1": "sub-546/ses-01/anat/msub-546_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "5a35ed80f8c681a52b720dd5bbdfef8186f23abc7f9879e909572f0060de2b90",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-548",
+      "session_id": "ses-01",
+      "t1": "sub-548/ses-01/anat/msub-548_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "7a132049411fd7937bac25f826cb94da4c132de347c30613ba6b5f7b6fae1072",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-549",
+      "session_id": "ses-01",
+      "t1": "sub-549/ses-01/anat/msub-549_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "73cb0fe7d41a309ba6d9df9fae7c9f2ab8dc2b88b2ce5d963042072e15a3d4a3",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-550",
+      "session_id": "ses-01",
+      "t1": "sub-550/ses-01/anat/msub-550_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "72bd1f941479afd31daac9f04bc35f94ba27f90c963540d96f2343181df7d2f6",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-551",
+      "session_id": "ses-01",
+      "t1": "sub-551/ses-01/anat/msub-551_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "9382924af4426f1b24f00f2d0c74fe81b4a4cd41dc03821f06fcd63962cae82d",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-553",
+      "session_id": "ses-01",
+      "t1": "sub-553/ses-01/anat/msub-553_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "e3c7ab852ff86add5f032872731bf27f026576c8578f6ea3e4842d45083961c3",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-554",
+      "session_id": "ses-01",
+      "t1": "sub-554/ses-01/anat/msub-554_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "391983d259a0de4d755e73e6dbc542295f47d4c5322720d7b440edfe7fd76e00",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-555",
+      "session_id": "ses-01",
+      "t1": "sub-555/ses-01/anat/msub-555_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "7023df72c1bfb3270907061dc62d77556776191945537bc910fc3992be61242d",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-558",
+      "session_id": "ses-01",
+      "t1": "sub-558/ses-01/anat/msub-558_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "60fa0b390a31099da9e60535560cf04f669120a4a943e7b3a80022eb7c6a91b9",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-559",
+      "session_id": "ses-01",
+      "t1": "sub-559/ses-01/anat/msub-559_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "4864e7438802210b440d15ebe8a5268625e17e2eec0ad4e672d6f3add18297e8",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-560",
+      "session_id": "ses-01",
+      "t1": "sub-560/ses-01/anat/msub-560_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "6e26a056c548074c01920d4b96f1a7da4bab13ae45afe0b14f44e6ba53bdaa61",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-561",
+      "session_id": "ses-01",
+      "t1": "sub-561/ses-01/anat/msub-561_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "b2bb5558a3711a2f6ee7d476218df781233596824bcacdd0844676a3b90ed2b8",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-562",
+      "session_id": "ses-01",
+      "t1": "sub-562/ses-01/anat/msub-562_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "135676ff9506eebf501eae4b483abd22e1e799a876eb89ee2b80e6d274a86c5a",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-563",
+      "session_id": "ses-01",
+      "t1": "sub-563/ses-01/anat/msub-563_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "a335dcdd95aa0f8622aafef96697445214509c10753916bbd2e92a63ccc89df3",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-568",
+      "session_id": "ses-01",
+      "t1": "sub-568/ses-01/anat/msub-568_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "8fba408c94c05673f553aa8d9416e25421ccf0f82f4a2f0bff7fde7929cf1c9d",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-569",
+      "session_id": "ses-01",
+      "t1": "sub-569/ses-01/anat/msub-569_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "23b6884ef24535eacce24357c482d27dd4aa182f914eccdab40bd970de2952cd",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-571",
+      "session_id": "ses-01",
+      "t1": "sub-571/ses-01/anat/msub-571_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "90a1a82ddbeea814622dbf0597552514c3e30ba3cbf3ebda8d99a41ec20b8594",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-572",
+      "session_id": "ses-01",
+      "t1": "sub-572/ses-01/anat/msub-572_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "17c01a35f36d7d97a3bd37f657b7dfc2894a2b1fe5ee4bc76dea01a61331113a",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-573",
+      "session_id": "ses-01",
+      "t1": "sub-573/ses-01/anat/msub-573_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "0663b35d37cc79bb05ed7a115756f2a0edf97b91aa98f620d5de2fec759bb4ce",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-574",
+      "session_id": "ses-01",
+      "t1": "sub-574/ses-01/anat/msub-574_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "6e8590128107b301401458096f32d43f70f12c4b77d677679de9ffba437feab0",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-576",
+      "session_id": "ses-01",
+      "t1": "sub-576/ses-01/anat/msub-576_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "2acd4398179ead6b970868eab7615b2e5cf349e6ba84b4c03ad18c804248a4fb",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-577",
+      "session_id": "ses-01",
+      "t1": "sub-577/ses-01/anat/msub-577_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "75cb16ee1c57f39ea11d2f61e3d74336d493d5e6af7d5e3f3fd7489f61078e7b",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-578",
+      "session_id": "ses-01",
+      "t1": "sub-578/ses-01/anat/msub-578_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "3590fc544b73170b12daa0911e8d14d849865bfe442eec54b9ecf58dd2d9646a",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-579",
+      "session_id": "ses-01",
+      "t1": "sub-579/ses-01/anat/msub-579_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "9be78f189855867057c9ddc0344703d9c50829a7fe88a292c66ad4c29b8d8a85",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-585",
+      "session_id": "ses-01",
+      "t1": "sub-585/ses-01/anat/msub-585_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "1175576bf2242e79d50566455da56b124743829c5b4a24c699002daa2327dc34",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-586",
+      "session_id": "ses-01",
+      "t1": "sub-586/ses-01/anat/msub-586_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "58f7a0fae9465ea0cd5b4ebd7172b3bca9e4ff7b1f3318dd173a371529eaf664",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-587",
+      "session_id": "ses-01",
+      "t1": "sub-587/ses-01/anat/msub-587_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "251ad35ffd907a6a7749f8851e116b2a0ea98bec453f8a140193aa0fc0662705",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-591",
+      "session_id": "ses-01",
+      "t1": "sub-591/ses-01/anat/msub-591_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "ef30f3a6961a955c453600df0d25295262d4984e3f5e714cd5f154cdd7ba721c",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-593",
+      "session_id": "ses-01",
+      "t1": "sub-593/ses-01/anat/msub-593_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "2c12ee256f44fb20c0341901091fc13748ae71530cf6edf4371363c424a8dd54",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-594",
+      "session_id": "ses-01",
+      "t1": "sub-594/ses-01/anat/msub-594_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "1a938241dcdf0343be9fff07f2fe2a009d029215ebd9b972bddaa5073c427ba1",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-595",
+      "session_id": "ses-01",
+      "t1": "sub-595/ses-01/anat/msub-595_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "52b6dfdcca59291275c619c4197cf96c4ed379ebf1ebeca77653bd4bbc0b69a8",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-597",
+      "session_id": "ses-01",
+      "t1": "sub-597/ses-01/anat/msub-597_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "17abab6b5c0ad4e25059edbc817e8ef30c623f07bb4a499ad3d57596e4261c73",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-599",
+      "session_id": "ses-01",
+      "t1": "sub-599/ses-01/anat/msub-599_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "980b5643d917862fd60447339cd1c7430504d46315679a8505dc95c74d9cc587",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-600",
+      "session_id": "ses-01",
+      "t1": "sub-600/ses-01/anat/msub-600_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "4ae71ee6c35c375accb55a200d8994184c728a036b50e2621cbdca8865f3fe9a",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-603",
+      "session_id": "ses-01",
+      "t1": "sub-603/ses-01/anat/msub-603_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "ca58b1bfbe70dad630ba9149ab39d30237d1fb269338e4a689249074fe1ef762",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-606",
+      "session_id": "ses-01",
+      "t1": "sub-606/ses-01/anat/msub-606_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "b198b580729f6d4f285d0c73d39c49b2219270027160cc94216b6dc8a3119547",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-607",
+      "session_id": "ses-01",
+      "t1": "sub-607/ses-01/anat/msub-607_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "569b43d81f00ad9aaf4f47947cfc57d546a72457045f556d01100bb6cbb16b7e",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-609",
+      "session_id": "ses-01",
+      "t1": "sub-609/ses-01/anat/msub-609_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "6289af7491a07d364fd65507aebb5dae436f7dff6b46c94accd0752e9d5fab84",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-612",
+      "session_id": "ses-01",
+      "t1": "sub-612/ses-01/anat/msub-612_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "5deedeb56b2308a1b479c5d3786bc0aa670e7263b9bc5210a8cea1974d03a6bf",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "val"
+    },
+    {
+      "subject_id": "sub-613",
+      "session_id": "ses-01",
+      "t1": "sub-613/ses-01/anat/msub-613_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "013ab3864d1357d24920185bc80ab71feccd0e5c6b811db35516f010edcf1463",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-616",
+      "session_id": "ses-01",
+      "t1": "sub-616/ses-01/anat/msub-616_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "bd943e79bb19355ad2735dd342656ae7a434ad933e934e9c317006b59a942384",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-617",
+      "session_id": "ses-01",
+      "t1": "sub-617/ses-01/anat/msub-617_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "9546599e620fdc553a2777fd0ac0f09d72540274760902f252026f97bf14c6ff",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-618",
+      "session_id": "ses-01",
+      "t1": "sub-618/ses-01/anat/msub-618_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "d0758644cb6a899a40f564c4826175f20cdb8f58a2232e7f4d588df007e7c1ba",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-619",
+      "session_id": "ses-01",
+      "t1": "sub-619/ses-01/anat/msub-619_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "c87eed62735859af1e4e6a477cb778be9880b79971db64e37140bae34c467be9",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-621",
+      "session_id": "ses-01",
+      "t1": "sub-621/ses-01/anat/msub-621_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "06e4c68160404678e4162041ca5944be505b2129f86cc13e6f14fbea87dc9c6d",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "test"
+    },
+    {
+      "subject_id": "sub-625",
+      "session_id": "ses-01",
+      "t1": "sub-625/ses-01/anat/msub-625_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "da77a04cfbb67d823ebb1c6fa512b992609bd583bd9cb027b9c1a18f0dac7171",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-626",
+      "session_id": "ses-01",
+      "t1": "sub-626/ses-01/anat/msub-626_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "349689b63a97a523c465ffb36d8b22efaf32a295e37d1b8e84b967fa72e65d18",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-627",
+      "session_id": "ses-01",
+      "t1": "sub-627/ses-01/anat/msub-627_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "3f82136eb7c72c1849c0def3d65e86471180cfd7d49d4ef1c245558d7dd15935",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-630",
+      "session_id": "ses-01",
+      "t1": "sub-630/ses-01/anat/msub-630_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "d802a3f64a8a9e8add1c80c512c89c895864b236e5c411dd9ec9e237493f3509",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-632",
+      "session_id": "ses-01",
+      "t1": "sub-632/ses-01/anat/msub-632_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "e046935314407d5f1bbcde9ac29ef02c18c141e71e4a1e1f1bd3ff80f0f05e69",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-636",
+      "session_id": "ses-01",
+      "t1": "sub-636/ses-01/anat/msub-636_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "24c19b7255c3de79a37ab6f44ef319e209e6f44902846f25f03ef13f19b149c4",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-639",
+      "session_id": "ses-01",
+      "t1": "sub-639/ses-01/anat/msub-639_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "ac726bfa840d74c5e5ebc9be10c1cc9e2dc97598a2aec77274867594f7da12a7",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-640",
+      "session_id": "ses-01",
+      "t1": "sub-640/ses-01/anat/msub-640_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "e0058bc0268709073d85e16e8cd4ef7fa0adb59f051ba97fd26e16ee6de1717d",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-642",
+      "session_id": "ses-01",
+      "t1": "sub-642/ses-01/anat/msub-642_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "4298fc2d969ef5d134de69197f5c46257cebef02ce791d305e60d673b01efdc2",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-648",
+      "session_id": "ses-01",
+      "t1": "sub-648/ses-01/anat/msub-648_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "959924e1c52d47067eb24209b49e96040b8d00077ddc1447115b33f36363781f",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-652",
+      "session_id": "ses-01",
+      "t1": "sub-652/ses-01/anat/msub-652_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "fe177eab19edccde8f26841bab7fc4bc9785bf8e88826979f2fdada48a6525a5",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-653",
+      "session_id": "ses-01",
+      "t1": "sub-653/ses-01/anat/msub-653_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "46d335fa6b08f208e321db0eca09fc934563635e8c5ceae9f06fb489d02770b8",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "train"
+    },
+    {
+      "subject_id": "sub-662",
+      "session_id": "ses-01",
+      "t1": "sub-662/ses-01/anat/msub-662_ses-01_T1w_brain_affine_mni.nii.gz",
+      "t2": null,
+      "t1_sha256": "6d98a78b4d64911d391242399835a17b7e6a67d5c10e2a459404c719f3ca210d",
+      "t2_sha256": null,
+      "shape": [
+        113,
+        137,
+        113
+      ],
+      "split": "test"
+    }
+  ]
+}

@@ -1,15 +1,16 @@
-# BOBs paired T1/T2 reconstruction baseline
+# MRI reconstruction baselines: BOBs T1/T2 and IXI T1
 
 A small local-first starting point for the MRI project: a two-channel 2D
-convolutional autoencoder, fixed subject splits, Hydra configs, deterministic
+convolutional autoencoder with one or two channels, fixed subject splits, Hydra configs, deterministic
 training, a lockfile, local run records and fail-closed regression checks.
 Run all commands from this directory. It can become its own Git repository;
 no repository has been initialized automatically.
 
 ## Scope and interpretation
 
-- **Only BOBs T1w + T2w**, paired within each visit on the same physical grid.
-  Keep dHCP (still downloading) and BONBID out of this experiment.
+- **Separate experiments:** BOBs T1w + T2w (paired on the same physical grid),
+  or the local prepared IXI T1-only dataset. IXI is now the default.
+  Keep dHCP and BONBID out of these experiments.
 - BOBs is an infant segmentation repository, **not a verified healthy cohort**.
   The manifest and run records say `health_unverified`. Review participant
   eligibility before calling this healthy-only anomaly training. If exclusions
@@ -22,6 +23,64 @@ no repository has been initialized automatically.
   [Feczko et al., Baby Open Brains](https://doi.org/10.1101/2024.10.02.616147)
   and the [dataset DOI](https://doi.org/10.17605/OSF.IO/WDR78).
   Do not publish raw scans, sidecars or clinical metadata in Git.
+- The IXI adapter targets the local derivative layout
+  `sub-*/ses-*/anat/msub-*_ses-*_T1w_brain_affine_mni.nii.gz`, **not raw IXI
+  archives**. Review the derivative's provenance, processing, source subject
+  mapping, license and eligibility before interpreting or publishing results.
+  It also remains `health_unverified`; no eligibility is inferred from filenames.
+
+## Switching datasets correctly
+
+Changing `data_root` only relocates files referenced by the current manifest.
+It does not discover a new dataset. Dataset, modalities, frozen splits and
+checkpoint must agree. The profiles select the root and manifest together:
+`dataset=ixi` selects one T1 channel and `eval/ixi_manifest.json`;
+`dataset=bobs` restores two T1/T2 channels and `eval/frozen_manifest.json`.
+`MRI_DATA_ROOT`, if set, overrides either profile's root; unset it when switching
+datasets unless it deliberately points to the selected dataset.
+
+The first IXI freeze contains **409 subjects / 409 T1 volumes**:
+327 train, 41 validation and 41 test subjects, using split seed 42.
+
+For the new IXI baseline:
+
+```bash
+# Keep the installed CUDA environment; no dependency changes are required.
+uv run --no-sync python -m cvproj.data.prepare --dataset IXI \
+  --data-root /data/hf_brain_struc/IXI --output eval/ixi_manifest.json
+
+# First smoke-test actual IXI scans (not a baseline):
+uv run --no-sync python -m cvproj.train dataset=ixi device=cuda \
+  max_epochs=1 subset_subjects=2 image_size=64 slice_step=16
+
+# Then start a NEW full-data training run:
+uv run --no-sync python -m cvproj.train dataset=ixi device=cuda seed=0
+
+# Evaluate its checkpoint; use the smoke preprocessing overrides if evaluating a smoke checkpoint.
+uv run --no-sync python -m cvproj.evaluate dataset=ixi device=cuda \
+  checkpoint=outputs/<date>/<ixi-run>/best.pt
+```
+
+Preparation refuses to overwrite frozen splits; use `--check` for an existing
+manifest. BOBs files, its original manifest and checkpoints are left unchanged.
+An old BOBs checkpoint remains evaluable with `dataset=bobs` and an explicit
+checkpoint path. Evaluation no longer defaults to a hard-coded BOBs checkpoint.
+`cvproj.evaluate` does **not train** a new model, and changing `seed` there
+does not retrain the checkpoint.
+
+Keep reviewed IXI baselines separately in `eval/ixi/`:
+copy the IXI run's `metrics.json` and `protocol.json` to
+`eval/ixi/baseline_metrics.json` and `eval/ixi/baseline_protocol.json`, respectively.
+Use those paths in the gate command; do not overwrite a BOBs baseline or compare
+their MSE as equivalent performance. The protocol gate rejects different data
+or modalities. For IXI reproduction:
+
+```bash
+MRI_BACKEND=cuda MRI_BASELINE_DIR=eval/ixi bash scripts/reproduce.sh dataset=ixi seed=0
+```
+
+The original BOBs instructions follow; all model invocations explicitly select
+`dataset=bobs` so they do not silently switch to the new default.
 
 ## 1. Install and freeze the data once
 
@@ -58,11 +117,11 @@ uv run --frozen --extra cpu pytest
 
 # Synthetic smoke: no dataset access, no claims about model performance.
 uv run --frozen --extra cpu python -m cvproj.train \
-  synthetic=true max_epochs=1 image_size=32 width=4 threads=1
+  dataset=bobs synthetic=true max_epochs=1 image_size=32 width=4 threads=1
 
 # Real paired-data smoke; this is NOT a baseline.
 uv run --frozen --extra cpu python -m cvproj.train \
-  max_epochs=1 subset_subjects=2 image_size=64 slice_step=16
+  dataset=bobs max_epochs=1 subset_subjects=2 image_size=64 slice_step=16
 ```
 
 The included GitHub workflow is for this directory as the future repository
@@ -74,12 +133,12 @@ components exist, rather than shipping failing template jobs.
 
 ```bash
 # CPU, if desired:
-uv run --frozen --extra cpu python -m cvproj.train seed=0
+uv run --frozen --extra cpu python -m cvproj.train dataset=bobs seed=0
 
 # CUDA 12.8 wheel supports the local RTX 5080 (Blackwell).
 # Switch extras rather than installing a second environment.
 uv sync --frozen --extra cuda
-uv run --frozen --extra cuda python -m cvproj.train device=cuda seed=0
+uv run --frozen --extra cuda python -m cvproj.train dataset=bobs device=cuda seed=0
 ```
 
 The default is 10 epochs, 128x128 axial slices, batch size 16, Adam at 1e-3.
@@ -153,11 +212,11 @@ switching a CUDA training environment back to CPU wheels.
 
 ```bash
 # Uses local frozen data, not a nonexistent DVC remote.
-bash scripts/reproduce.sh
-MRI_BACKEND=cuda bash scripts/reproduce.sh seed=0
+bash scripts/reproduce.sh dataset=bobs
+MRI_BACKEND=cuda bash scripts/reproduce.sh dataset=bobs seed=0
 
 # Hydra multirun (sequential, no orchestrator):
-uv run --frozen --extra cuda python -m cvproj.train -m device=cuda seed=0,1,2
+uv run --frozen --extra cuda python -m cvproj.train -m dataset=bobs device=cuda seed=0,1,2
 uv run --frozen --extra cuda python scripts/summarize_seeds.py \
   multirun/<date>/<sweep>/0 multirun/<date>/<sweep>/1 multirun/<date>/<sweep>/2
 ```
@@ -173,7 +232,7 @@ same preprocessing settings as training (do not use it repeatedly for tuning):
 
 ```bash
 uv run --frozen --extra cuda python -m cvproj.evaluate device=cuda \
-  checkpoint=outputs/<date>/<run>/best.pt split=test
+  dataset=bobs checkpoint=outputs/<date>/<run>/best.pt split=test
 ```
 
 Deterministic flags provide repeatability on the same software/hardware, not

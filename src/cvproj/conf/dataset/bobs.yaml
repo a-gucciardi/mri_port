@@ -1,0 +1,4 @@
+# @package _global_
+dataset_name: BOBs
+data_root: ${oc.env:MRI_DATA_ROOT,/data/bobs}
+manifest: eval/frozen_manifest.json
