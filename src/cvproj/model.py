@@ -9,9 +9,13 @@ class Autoencoder(nn.Module):
             nn.ReLU(),
             nn.Conv2d(width, width * 2, 3, stride=2, padding=1),
             nn.ReLU(),
-            nn.ConvTranspose2d(width * 2, width, 4, stride=2, padding=1),
+            # nn.ConvTranspose2d(width * 2, width, 4, stride=2, padding=1),
+            nn.Upsample(scale_factor=2, mode='bilinear'),
+            nn.Conv2d(width*2, width, 3, stride=1, padding=1),
             nn.ReLU(),
-            nn.ConvTranspose2d(width, channels, 4, stride=2, padding=1),
+            # nn.ConvTranspose2d(width, channels, 4, stride=2, padding=1),
+            nn.Upsample(scale_factor=2, mode='bilinear'),
+            nn.Conv2d(width, channels, 3, stride=1, padding=1),
             nn.Sigmoid(),
         )
 

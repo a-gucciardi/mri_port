@@ -22,6 +22,7 @@ from cvproj.runtime import (
     score,
     write_json,
 )
+from cvproj.viz import save_visualization
 
 LOG = logging.getLogger(__name__)
 
@@ -91,7 +92,16 @@ def main(raw: DictConfig) -> None:
             )
             write_json(output / "metrics.json", metrics)
             write_json(output / "subject_scores.json", subjects)
-    LOG.info("Run saved to %s (best validation MSE %.6f)", output, best)
+            save_visualization(
+                model,
+                loader(data["val"], config),
+                device,
+                output / "viz.html",
+                DATASET_MODALITIES[config.dataset_name],
+            )
+    LOG.info(
+        "Run saved to %s (best validation MSE %.6f, viz: %s)", output, best, output / "viz.html"
+    )
 
 
 if __name__ == "__main__":

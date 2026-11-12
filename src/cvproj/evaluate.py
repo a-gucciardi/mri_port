@@ -18,6 +18,7 @@ from cvproj.runtime import (
     score,
     write_json,
 )
+from cvproj.viz import save_visualization
 
 LOG = logging.getLogger(__name__)
 
@@ -55,7 +56,14 @@ def main(raw: DictConfig) -> None:
     record = provenance(config, manifest_hash)
     record["checkpoint_sha256"] = sha256(Path(config.checkpoint))
     write_json(output / "run.json", record)
-    LOG.info("%s metrics=%s saved to %s", config.split, metrics, output)
+    viz_path = save_visualization(
+        model,
+        loader(data[config.split], config),
+        device,
+        output / "viz.html",
+        DATASET_MODALITIES[config.dataset_name],
+    )
+    LOG.info("%s metrics=%s saved to %s (viz: %s)", config.split, metrics, output, viz_path)
 
     model.eval()
 
